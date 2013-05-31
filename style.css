@@ -8,7 +8,7 @@ body
 	background-repeat:no-repeat;
 	background-color:#333;
 	font-size:14px;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:"Open Sans", Arial, Helvetica, sans-serif
 }
 
 header
@@ -38,7 +38,7 @@ nav ul
 {
 	text-align:center;
 	padding:0;
-	margin:12px auto;
+	margin:10px auto;
 }
 
 nav ul li
@@ -63,7 +63,7 @@ ul li a:hover
 {
 	width:978px;
 	height:378px;
-	background-color:rgba(255, 255, 255, 0.6);
+	background-color:rgba(255, 255, 255, 0.8);
 	position:relative;
 	border:1px solid white;
 	margin:10px auto 0px;
@@ -73,23 +73,101 @@ ul li a:hover
 {
 	height:100%;
 	float:left;
+	padding:0 30px;
+}
+
+.content h1
+{
+	font-weight:normal;
+	margin:55px 0 0 0;
+	padding:0;
 }
 
 #content-left
 {
-	width:489px;
+	width:429px;
 	border-right:1px solid white;
 }
 
-#content-right
+.package
 {
-	
+	margin-top:15px;
+}
+
+.package h2
+{
+	margin:0;
+	padding:0;
+	font-size:16px;
+}
+
+.package p
+{
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+
+.package img
+{
+	margin-top:15px;
+	float:left;
+}
+
+.package_description
+{
+	margin-top:12px;
+	float:left;
+	width:195px;
+	clear:right;
+	margin-left:10px;
+}
+
+.package a
+{
+	color:#246b78;
+	text-decoration:none;
+	font-weight:600;
+}
+
+.package a:hover
+{
+	color:#292929;
+}
+
+.button
+{
+	display:block;
+	text-decoration:none;
+	color:#292929;
+	margin-top:20px;
+	height:27px;
+	background-image:url(images/button_texture.png);
+	background-repeat:repeat-x;
+	border:1px solid #b1b2b2;
+	position:relative;
+	float:left;
+	font-size:20px;
+	padding:10px 20px;;
+}
+
+.highlighted
+{
+	font-weight:600;
+	margin-right:15px;
+	background-image:url(images/button_highlighted_texture.png);
+	border:1px solid #49a994;
+}
+
+.button:hover
+{
+	opacity:0.75;
 }
 
 footer
 {
 	width:980px;
-	height:120px;
+	height:125px;
 	position:relative;
 	margin:40px auto 0px;
 	background-color:rgba(22, 28, 48, 0.5);
@@ -100,17 +178,18 @@ footer
 	position:relative;
 	height:100%;
 	float:left;
-	padding-top:20px;
-	padding-left:52px;
+	padding-top:15px;
+	padding-left:62px;
 }
 
 footer h1
 {
-	font-size:1em;
+	font-size:0.9em;
 	color:#FFF;
 	margin:0;
 	padding:0;
 	float:left;
+	font-weight:600;
 }
 
 footer ul
@@ -124,4 +203,6 @@ footer ul li
 {
 	color:#FFF;
 	list-style:none;
+	font-weight:300;
+	font-size:0.9em;
 }
