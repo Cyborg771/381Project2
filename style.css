@@ -1,3 +1,74 @@
 @charset "utf-8";
 /* CSS Document */
 
+body
+{
+	background-color:#099;	
+}
+
+header
+{
+	width:980px;
+	margin:50px auto 0px;
+	position:relative;
+}
+
+#logo
+{
+	margin-left:-22px;
+}
+
+nav
+{
+	display:block;
+	background-color:rgba(22, 28, 48, 0.75);
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:530px;
+	height:40px;
+}
+
+nav ul
+{
+	text-align:center;
+	padding:0;
+	margin:10px auto;
+}
+
+nav ul li
+{
+	list-style:none;
+	margin:0 8px;
+	display:inline;
+}
+
+nav ul li a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+nav ul li a:hover
+{
+	color:#999;
+}
+
+#content
+{
+	width:980px;
+	height:380px;
+	background-color:rgba(255, 255, 255, 0.75);
+	position:relative;
+	border:1px solid white;
+	margin:10px auto 0px;
+}
+
+footer
+{
+	width:980px;
+	height:100px;
+	position:relative;
+	margin:40px auto 0px;
+	background-color:rgba(22, 28, 48, 0.75);
+}
