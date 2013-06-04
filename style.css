@@ -8,7 +8,7 @@ body
 	background-repeat:no-repeat;
 	background-color:#333;
 	font-size:14px;
-	font-family:"Open Sans", Arial, Helvetica, sans-serif
+	font-family:"Open Sans", Arial, Helvetica, sans-serif;
 }
 
 header
@@ -69,21 +69,21 @@ ul li a:hover
 	margin:10px auto 0px;
 }
 
-.content
+section
 {
 	height:100%;
 	float:left;
 	padding:0 30px;
 }
 
-.content h1
+section h1
 {
 	font-weight:normal;
 	margin:55px 0 0 0;
 	padding:0;
 }
 
-#content-left
+#introduction
 {
 	width:429px;
 	border-right:1px solid white;
@@ -121,16 +121,17 @@ ul li a:hover
 	width:195px;
 	clear:right;
 	margin-left:10px;
+	color:black;
 }
 
-.package a
+a .package span.details
 {
 	color:#246b78;
 	text-decoration:none;
 	font-weight:600;
 }
 
-.package a:hover
+a:hover .package span.details
 {
 	color:#292929;
 }
@@ -190,6 +191,10 @@ footer h1
 	padding:0;
 	float:left;
 	font-weight:600;
+}
+
+footer h1 a{
+	color:#FFF;
 }
 
 footer ul
