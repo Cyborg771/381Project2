@@ -59,6 +59,8 @@ ul li a:hover
 	color:#999;
 }
 
+/* --------------------------------------- CONTENT -----------------------------------*/
+
 #main
 {
 	width:978px;
@@ -83,7 +85,7 @@ section h1
 	padding:0;
 }
 
-#introduction
+#introduction, #part1
 {
 	width:429px;
 	border-right:1px solid white;
@@ -165,6 +167,83 @@ a:hover .package span.details
 	opacity:0.75;
 }
 
+#progress {
+	font-size:1.5em;
+	float: right;
+	margin: 10px 20px;
+	color:#a8acad;
+}
+
+#progress .active{
+	color:black;
+	font-weight:bold;
+}
+
+#progress .separator{
+	font-size: 0.6em;
+}
+
+fieldset{
+	border: 1px solid #acd5c3;
+	background-color:white;
+}
+
+/*-------------------------------------- BOOK NOW ------------------------------------*/
+
+
+
+#book-now h1{
+	font-size:2.5em;
+	margin:10px 0 0 0;
+}
+
+#book-now #part2{
+	width:427px;
+}
+
+#book-now #part2 h2{
+	display:inline;
+	font-size: 1em;
+}
+
+#book-now input{
+	display:block;
+}
+
+#book-now .form-column{
+	width:50%;
+	float:left;
+}
+
+
+#book-now a.info{
+	font-size:0.8em;
+	color:#35796c;
+	text-decoration: none;
+}
+
+#book-now .package {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
+#book-now .package img{
+	width: 93%;
+	float:none;
+}
+
+#book-now input[type="radio"]{
+	margin: 0 auto;
+}
+
+#book-now .button{
+	padding: 10px 10px;
+}
+
+
+/* --------------------------------------- FOOTER -----------------------------------*/
+
 footer
 {
 	width:980px;
@@ -183,7 +262,7 @@ footer
 	padding-left:62px;
 }
 
-footer h1
+footer h2
 {
 	font-size:0.9em;
 	color:#FFF;
@@ -193,7 +272,7 @@ footer h1
 	font-weight:600;
 }
 
-footer h1 a{
+footer h2 a{
 	color:#FFF;
 }
 
