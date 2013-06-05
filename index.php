@@ -1,10 +1,10 @@
 <?php include 'head.php' ?>
 
-<body id="home">
+<body>
 
 	<?php include 'nav.php' ?>
     
-    <div id="main">
+    <div class="main" id="home">
     	<section id="part1">
         	<h1>Helicopter flights you'll never forget. Ever.</h1>
             <p>You can't say that you've experienced the rocky mountains until you've seen them from the sky. Sky Air has provided exciting and safe helicopter experiences since 2001. Let us take you there in style.</p>

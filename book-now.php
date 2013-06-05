@@ -1,24 +1,23 @@
 <?php include 'head.php' ?>
 
-<body id="book-now">
+<body>
 	
     <?php include 'nav.php' ?>
     
-    <div id="main">
+    <div class="main" id="book-now">
         <div id="progress">
             <span class="active">1</span> <span class="separator">&middot;&middot;&middot;</span> 2 <span class="separator">&middot;&middot;&middot;</span> 3
         </div>
         <form>
         	<section id="part1">
-            	<h1>Book a Helicopter Flight</h1>
+            	<h1>Book a Helicopter Flight.</h1>
                 
-                    <fieldset>
-                        <legend>Choose Your Package <a class="info" href="#">Info &raquo;</a></legend>
-                        
+                    <fieldset id="choose-package">
+                        <legend>Choose Your Package <a class="info" href="tours-packages.php">Info &raquo;</a></legend>
                         
                         <div class="package">
                             <label for = "20MinuteSampler">
-                                <img src="images/package_1.png" />
+                                <img src="images/package_1_square.png" />
                                 <h2>20 Minute Sampler</h2>
                             </label>
                             <input type = "radio"
@@ -31,7 +30,7 @@
 
                         <div class="package">
                             <label for = "TotalAdventurePackage">
-                                <img src="images/package_2.png" />
+                                <img src="images/package_2_square.png" />
                                 <h2>Total Adventure Package</h2>
                             </label>
                             <input type = "radio"
@@ -43,7 +42,7 @@
 
                         <div class="package">
                             <label for = "GroupTour">
-                                <img src="images/package_3.png" />
+                                <img src="images/package_3_square.png" />
                                 <h2>Group Tour</h2>
                             </label>
                             <input type = "radio"
@@ -52,10 +51,6 @@
                                          value = "Group Tour"
                                         />
                         </div>
-
-                       
-
-                       
                     </fieldset>
                 
                 
@@ -65,10 +60,10 @@
             <section id="part2">
                 <div class="form-column">
                     <label><h2>Date</h2></label>
-                    <a class="info note" href="#">Check Flight Schedule &raquo;</a>
-                    <input type="date">
+                    <a class="info note" href="flight-schedule.php">Check Flight Schedule &raquo;</a>
+                    <input type="date" id="FlightDate">
                     <label><h2>Flight Time</h2></label>
-                    <a class="info note" href="#">Check Flight Schedule &raquo;</a>
+                    <a class="info note" href="flight-schedule.php">Check Flight Schedule &raquo;</a>
                     <select id="FlightTime">
                         <option value=""></option>
                         <option value="9AM">9:00 AM</option>
@@ -89,8 +84,8 @@
                 <div class="form-column">
                     <label><h2>Comments</h2></label>
                     <span class="note">Please note any special requests.</span>
-                    <textarea rows="4" cols="25"></textarea>
-                    <button class="highlighted">CONFIRM DETAILS</button>
+                    <textarea rows="4" cols="22"></textarea>
+                    <a href="#" class="button highlighted">CONFIRM</a>
                 </div>
             </section>
         </form>

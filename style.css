@@ -70,7 +70,7 @@ ul li a:hover
 
 /* --------------------------------------- CONTENT -----------------------------------*/
 
-#main
+.main
 {
 	width:978px;
 	height:378px;
@@ -117,11 +117,7 @@ section h1
 .button{
 	padding:10px 20px;
 	height:27px;
-}
-
-button{
-	padding:8px;
-	height:45px;
+	text-align:center;
 }
 
 .highlighted
@@ -244,7 +240,7 @@ input[type="date"], textarea, select{
 
 #book-now #part2{
 	width: 421px;
-	margin-top: -84px;
+	margin-top: -95px;
 	padding: 0px 33px;
 }
 
@@ -255,6 +251,11 @@ input[type="date"], textarea, select{
 
 #book-now input[type="date"], #book-now select{
 	display:block;
+	width:173px;
+}
+
+#book-now #FlightDate
+{
 	width:157px;
 }
 
@@ -306,11 +307,50 @@ input[type="radio"]:checked~label{
 	display:block;
 }
 
-#book-now button{
-	margin-top:30px;
-	width: 207px;
+#book-now .button{
+	width:166px;
 }
 
+/* --------------------------------------- FAQ -----------------------------------*/
+
+#faq #part1{
+	width:295px;
+	border-right:1px solid white;
+}
+
+#faq #questions
+{
+	margin-top:55px;
+}
+
+#faq h1
+{
+	margin:10px 0;
+	padding:0px;
+	font-size:1.5em;
+	font-weight:600;
+}
+
+#faq ul{
+	margin:0px;
+	padding:0px;
+}
+
+#faq ul li{
+	list-style:none;
+}
+
+#faq ul li a{
+	color:#246b78;
+}
+
+#faq ul li a:hover{
+	color:#292929;
+}
+
+#faq .answer {
+	display:none;
+}
 
 /* --------------------------------------- FOOTER -----------------------------------*/
 
@@ -344,6 +384,7 @@ footer h2
 
 footer h2 a{
 	color:#FFF;
+	text-decoration:none;
 }
 
 footer ul

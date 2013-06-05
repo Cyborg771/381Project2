@@ -1,10 +1,10 @@
 <?php include 'head.php' ?>
 
-<body id="home">
+<body>
 
 	<?php include 'nav.php' ?>
     
-    <div id="main">
+    <div class="main" id="flight-schedule">
     </div>
     
     <?php include 'footer.php' ?>
