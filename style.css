@@ -138,20 +138,29 @@ a:hover .package span.details
 	color:#292929;
 }
 
-.button
+.button, button
 {
 	display:block;
 	text-decoration:none;
 	color:#292929;
 	margin-top:20px;
-	height:27px;
+	
 	background-image:url(images/button_texture.png);
 	background-repeat:repeat-x;
 	border:1px solid #b1b2b2;
 	position:relative;
 	float:left;
 	font-size:20px;
-	padding:10px 20px;;
+}
+
+.button{
+	padding:10px 20px;
+	height:27px;
+}
+
+button{
+	padding:8px;
+	height:45px;
 }
 
 .highlighted
@@ -188,13 +197,25 @@ fieldset{
 	background-color:white;
 }
 
+input[type="date"], textarea, select{
+	padding: 6px;
+}
+
+
 /*-------------------------------------- BOOK NOW ------------------------------------*/
 
 
+#book-now form{
+	height:100%;
+}
 
 #book-now h1{
 	font-size:2.5em;
 	margin:10px 0 0 0;
+}
+
+#book-now .package h2{
+	font-size: 1em;
 }
 
 #book-now #part2{
@@ -202,11 +223,11 @@ fieldset{
 }
 
 #book-now #part2 h2{
-	display:inline;
 	font-size: 1em;
+	margin-bottom: -3px;
 }
 
-#book-now input{
+#book-now input, #booknow select{
 	display:block;
 }
 
@@ -234,7 +255,13 @@ fieldset{
 }
 
 #book-now input[type="radio"]{
-	margin: 0 auto;
+	margin: 6px auto;
+}
+
+#book-now .note{
+	font-size:0.8em;
+	color:#504e4f;
+	display:block;
 }
 
 #book-now .button{
