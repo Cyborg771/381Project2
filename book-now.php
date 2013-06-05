@@ -1,28 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Sky Air - Vancouver Helicopter Tours</title>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
-    <link href="normalize.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+<?php include 'head.php' ?>
 
 <body id="book-now">
-	<header>
-    	<a href="index.html">
-            <img src="images/logo.png" id="logo" alt="Sky Air"/>
-        <a>
-        <nav>
-            <ul>
-                <li><a href="">Tours &amp; Packages</a></li>
-                <li><a href="">Flight Schedule</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+	
+    <?php include 'nav.php' ?>
+    
     <div id="main">
         <div id="progress">
             <span class="active">1</span> <span class="separator">&middot;&middot;&middot;</span> 2 <span class="separator">&middot;&middot;&middot;</span> 3
@@ -114,38 +95,8 @@
             </section>
         </form>
     </div>
-    <footer>
-    	<div class="footer-info">
-        	<h2><a href="#">Information:</a></h2>
-            <ul>
-            	<li><a href="">Prices</a></li>
-                <li><a href="">Schedule</a></li>
-                <li><a href="">Pick Up Location</a></li>
-                <li><a href="">What to Bring</a></li>
-                <li><a href="">FAQ</a></li>
-            </ul>
-        </div>
-        <div class="footer-info">
-        	<h2><a href="#">Policies:</a></h2>
-            <ul>
-            	<li><a href="">Safety</a></li>
-                <li><a href="">Cancellation</a></li>
-                <li><a href="">Privacy</a></li>
-            </ul>
-        </div>
-        <div class="footer-info">
-        	<h2><a href="#">Contact:</a></h2>
-            <ul>
-            	<li>604.888.8888</li>
-                <li><a href="">hello@skyair.com</a></li>
-            </ul>
-        </div>
-        <div class="footer-info">
-        	<h2><a href="#">Address:</a></h2>
-            <ul>
-            	<li><a href="">1111 Mountain Ave<br />Burnaby BC<br />A1I 2R3</a></li>
-            </ul>
-        </div>
-    </footer>
+    
+    <?php include 'footer.php' ?>
+    
 </body>
 </html>

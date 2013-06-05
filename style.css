@@ -3,9 +3,18 @@
 
 body
 {
-	background-image:url(images/background.jpg);
+	/*background-image:url(images/background.jpg);
 	background-size:100%;
-	background-repeat:no-repeat;
+	background-repeat:no-repeat;*/
+
+	/* Full width background method from this tutorial: http://css-tricks.com/perfect-full-page-background-image/ */
+	background: url(images/background.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	/* End full width background*/
+
 	background-color:#333;
 	font-size:14px;
 	font-family:"Open Sans", Arial, Helvetica, sans-serif;
@@ -30,7 +39,7 @@ nav
 	position:absolute;
 	bottom:0px;
 	right:0px;
-	width:530px;
+	width:580px;
 	height:40px;
 }
 
@@ -44,7 +53,7 @@ nav ul
 nav ul li
 {
 	list-style:none;
-	margin:0 12px;
+	margin:0 8px;
 	display:inline;
 }
 
@@ -85,57 +94,9 @@ section h1
 	padding:0;
 }
 
-#introduction, #part1
+#part1
 {
 	width:429px;
-	border-right:1px solid white;
-}
-
-.package
-{
-	margin-top:15px;
-}
-
-.package h2
-{
-	margin:0;
-	padding:0;
-	font-size:16px;
-}
-
-.package p
-{
-	margin:0;
-	padding:0;
-	font-size:12px;
-}
-
-.package img
-{
-	margin-top:15px;
-	float:left;
-}
-
-.package_description
-{
-	margin-top:12px;
-	float:left;
-	width:195px;
-	clear:right;
-	margin-left:10px;
-	color:black;
-}
-
-a .package span.details
-{
-	color:#246b78;
-	text-decoration:none;
-	font-weight:600;
-}
-
-a:hover .package span.details
-{
-	color:#292929;
 }
 
 .button, button
@@ -177,9 +138,9 @@ button{
 }
 
 #progress {
-	font-size:1.5em;
+	font-size: 1.3em;
 	float: right;
-	margin: 10px 20px;
+	margin: 30px 30px;
 	color:#a8acad;
 }
 
@@ -199,8 +160,65 @@ fieldset{
 
 input[type="date"], textarea, select{
 	padding: 6px;
+	margin-top: 5px;
 }
 
+/*---------------------------------------- HOME --------------------------------------*/
+
+#home #part1{
+	border-right:1px solid white;
+}
+
+#home #part2{
+	width: 414px;
+}
+
+#home .package
+{
+	margin-top:15px;
+}
+
+#home .package h2
+{
+	margin:0;
+	padding:0;
+	font-size:16px;
+}
+
+#home .package p
+{
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+
+#home .package img
+{
+	margin-top:15px;
+	float:left;
+}
+
+#home .package_description
+{
+	margin-top:12px;
+	float:left;
+	width:195px;
+	clear:right;
+	margin-left:10px;
+	color:black;
+}
+
+#home a .package span.details
+{
+	color:#246b78;
+	text-decoration:none;
+	font-weight:600;
+}
+
+#home a:hover .package span.details
+{
+	color:#292929;
+}
 
 /*-------------------------------------- BOOK NOW ------------------------------------*/
 
@@ -210,16 +228,24 @@ input[type="date"], textarea, select{
 }
 
 #book-now h1{
-	font-size:2.5em;
-	margin:10px 0 0 0;
+	font-size: 2.67em;
+	margin: 39px 0 0 0
+}
+
+#choose-package{
+	margin-top:10px;;
 }
 
 #book-now .package h2{
 	font-size: 1em;
+	width: 91%;
+	margin: 0 auto;
 }
 
 #book-now #part2{
-	width:427px;
+	width: 421px;
+	margin-top: -84px;
+	padding: 0px 33px;
 }
 
 #book-now #part2 h2{
@@ -227,13 +253,19 @@ input[type="date"], textarea, select{
 	margin-bottom: -3px;
 }
 
-#book-now input, #booknow select{
+#book-now input[type="date"], #book-now select{
 	display:block;
+	width:157px;
+}
+
+#book-now textarea{
+	width:194px;
 }
 
 #book-now .form-column{
 	width:50%;
 	float:left;
+	margin-top: 92px;
 }
 
 
@@ -252,10 +284,20 @@ input[type="date"], textarea, select{
 #book-now .package img{
 	width: 93%;
 	float:none;
+	margin:0;
 }
 
 #book-now input[type="radio"]{
 	margin: 6px auto;
+}
+
+/* Trying to get the non-selected package label (image and title) to fade out.*/
+input[type="radio"]~label{
+	opacity:0.5;
+}
+
+input[type="radio"]:checked~label{
+	opacity:1.0;
 }
 
 #book-now .note{
@@ -264,8 +306,9 @@ input[type="date"], textarea, select{
 	display:block;
 }
 
-#book-now .button{
-	padding: 10px 10px;
+#book-now button{
+	margin-top:30px;
+	width: 207px;
 }
 
 
