@@ -318,6 +318,10 @@ input[type="radio"]:checked~label{
 	border-right:1px solid white;
 }
 
+#faq #part2{
+	width:560px;
+}
+
 #faq #questions
 {
 	margin-top:55px;
@@ -349,6 +353,7 @@ input[type="radio"]:checked~label{
 }
 
 #faq .answer {
+	margin-top:55px;
 	display:none;
 }
 

@@ -4,17 +4,17 @@
             <ul>
             	<li><a href="tours-packages.php">Prices</a></li>
                 <li><a href="flight-schedule.php">Schedule</a></li>
-                <li><a href="faq.php#pickup">Pick Up Location</a></li>
-                <li><a href="faq.php#what_to_bring">What to Bring</a></li>
+                <li><a class="question"id="pickup_footer" href="faq.php#pickup">Pick Up Location</a></li>
+                <li><a class="question"id="what-to-bring_footer" href="faq.php#what-to-bring">What to Bring</a></li>
                 <li><a href="faq.php">FAQ</a></li>
             </ul>
         </div>
         <div class="footer-info">
         	<h2><a href="faq.php">Policies:</a></h2>
             <ul>
-            	<li><a href="faq.php#safety">Safety</a></li>
-                <li><a href="faq.php#cancellation">Cancellation</a></li>
-                <li><a href="faq.php#privacy">Privacy</a></li>
+            	<li><a class="question" id="safety_footer" href="faq.php#safety">Safety</a></li>
+                <li><a class="question" id="cancellation_footer" href="faq.php#cancellation">Cancellation</a></li>
+                <li><a class="question" id="privacy_footer" href="faq.php#privacy">Privacy</a></li>
             </ul>
         </div>
         <div class="footer-info">
