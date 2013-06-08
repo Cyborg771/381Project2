@@ -11,7 +11,7 @@
 		if ($path.length > 1) { $currentAnswer = '#'+$path[1]+"-answer"; }
 		else { $currentAnswer = "#default-answer" }
 		$('.answer').fadeOut(0);
-		$($currentAnswer).fadeIn(100);
+		$($currentAnswer).fadeIn(0);
 		
 		$('.question').click(function() {
 			$qid = $(this).attr('id');
@@ -19,8 +19,8 @@
 			$aid = "#"+$qid+"-answer";
 			if ($aid != $currentAnswer) {
 				$currentAnswer = $aid;
-				$('.answer').fadeOut(100);
-				$($aid).delay(100).fadeIn(100);
+				$('.answer').fadeOut(200);
+				$($aid).delay(200).fadeIn(200);
 			}
 		});
 	});
@@ -65,7 +65,7 @@
             </div>
             <div class="answer" id="life-answer">
             	<h1>What is the meaning of life?</h1>
-                <p>Suspendisse cursus, est et interdum ultricies, massa lorem aliquet est, ac luctus nulla nisl et magna. Praesent id dolor sed arcu commodo consequat. Nunc venenatis eget eros quis porttitor. Mauris blandit consequat nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <p>42.</p>
             </div>
             <div class="answer" id="woodchuck-answer">
             	<h1>How much wood could a wood chuck chuck?</h1>

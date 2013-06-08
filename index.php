@@ -12,7 +12,7 @@
             <a href="book-now.php" class="button">MANAGE BOOKINGS</a>
         </section>
         <section id="part2">
-            <a href="tours-packages.php">
+            <a href="tours-packages.php#p1">
             	<div class="package">
                 	<img src="images/package_1.png" />
                     <div class="package_description">
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </a>
-            <a href="tours-packages.php">
+            <a href="tours-packages.php#p2">
                 <div class="package">
                 	<img src="images/package_2.png" />
                     <div class="package_description">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </a>
-            <a href="tours-packages.php">
+            <a href="tours-packages.php#p3">
                 <div class="package">
                 	<img src="images/package_3.png" />
                     <div class="package_description">

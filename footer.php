@@ -6,7 +6,7 @@
                 <li><a href="flight-schedule.php">Schedule</a></li>
                 <li><a class="question"id="pickup_footer" href="faq.php#pickup">Pick Up Location</a></li>
                 <li><a class="question"id="what-to-bring_footer" href="faq.php#what-to-bring">What to Bring</a></li>
-                <li><a href="faq.php">FAQ</a></li>
+                <li><a class="question"id="default_footer" href="faq.php#default">FAQ</a></li>
             </ul>
         </div>
         <div class="footer-info">
