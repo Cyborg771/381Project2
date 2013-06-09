@@ -16,40 +16,41 @@
                         <legend>Choose Your Package <a class="info" href="tours-packages.php">Info &raquo;</a></legend>
                         
                         <div class="package">
-                            <label for = "20MinuteSampler">
-                                <img src="images/package_1_square.png" />
-                                <h2>20 Minute Sampler</h2>
-                            </label>
+                            
                             <input type = "radio"
                                          name = "package"
                                          id = "20MinuteSampler"
                                          value = "20 Minute Sampler"
                                          checked = "checked"
                                           />
+                            <label for = "20MinuteSampler">
+                                <img src="images/package_1_square.png" />
+                                <h2>20 Minute Sampler</h2>
+                            </label>
                         </div>
 
                         <div class="package">
-                            <label for = "TotalAdventurePackage">
-                                <img src="images/package_2_square.png" />
-                                <h2>Total Adventure Package</h2>
-                            </label>
                             <input type = "radio"
                                          name = "package"
                                          id = "TotalAdventurePackage"
                                          value = "Total Adventure Package"
                                           />
+                            <label for = "TotalAdventurePackage">
+                                <img src="images/package_2_square.png" />
+                                <h2>Total Adventure Package</h2>
+                            </label>
                         </div>
 
                         <div class="package">
-                            <label for = "GroupTour">
-                                <img src="images/package_3_square.png" />
-                                <h2>Group Tour</h2>
-                            </label>
                             <input type = "radio"
                                          name = "package"
                                          id = "GroupTour"
                                          value = "Group Tour"
                                         />
+                            <label for = "GroupTour">
+                                <img src="images/package_3_square.png" />
+                                <h2>Group Tour</h2>
+                            </label>
                         </div>
                     </fieldset>
                 

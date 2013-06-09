@@ -87,13 +87,6 @@ section
 	padding:0 30px;
 }
 
-section h1
-{
-	font-weight:normal;
-	margin:55px 0 0 0;
-	padding:0;
-}
-
 .button, button
 {
 	display:block;
@@ -170,6 +163,13 @@ input[type="date"], textarea, select{
 	margin-top:15px;
 }
 
+#home h1
+{
+	font-weight:normal;
+	margin:55px 0 0 0;
+	padding:0;
+}
+
 #home .package h2
 {
 	margin:0;
@@ -220,6 +220,7 @@ input[type="date"], textarea, select{
 }
 
 #book-now h1{
+    font-weight:normal;
 	font-size: 2.67em;
 	margin: 39px 0 0 0
 }
@@ -286,10 +287,16 @@ input[type="date"], textarea, select{
 	width: 93%;
 	float:none;
 	margin:0;
+    margin-top:-16px;
+}
+
+#book-now .package label:hover{
+    cursor:pointer;
 }
 
 #book-now input[type="radio"]{
 	margin: 6px auto;
+    visibility:hidden;
 }
 
 /* Trying to get the non-selected package label (image and title) to fade out.*/
@@ -402,11 +409,27 @@ input[type="radio"]:checked~label{
     text-decoration:none;
 }
 
+#tours-packages #part2 h1{
+    margin-bottom:0;
+    font-weight:600;
+}
+
+#tours-packages #part2 h2{
+    font-size:1.2em;
+    margin-top:5px;
+    color:#246b78;
+    font-weight:400;
+}
+
+#tours-packages iframe {
+    margin-top:2px;
+}
+
 /* --------------------------------------- Flight Schedule -----------------------------------*/
 
 #flight-schedule #part1{
     width:562px;
-    border-right:1px solid #white;
+    border-right:1px solid white;
 }
 
 #flight-schedule .cal-month{
@@ -450,6 +473,23 @@ input[type="radio"]:checked~label{
 
 #flight-schedule .cell-faded{
     color:rgba(0, 0, 0, 0.3);
+}
+
+#flight-schedule .details h3 {
+    margin:32px 0px;
+}
+
+#flight-schedule .details a{
+    text-decoration:none;
+    color:#246b78;
+}
+
+#flight-schedule .details a:hover{
+    color:#292929;
+}
+
+#flight-schedule .details ul .booked {
+    text-decoration:line-through;
 }
 
 /* --------------------------------------- FOOTER -----------------------------------*/
