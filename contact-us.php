@@ -9,39 +9,38 @@
 	    	<h1>
 	    		Contact Us
 	    	</h1>
-	    	<p>Feel free to contact us at any time. We'd love to hear from you!
+	    	<p class="subtitle">Feel free to contact us at any time. We'd love to hear from you!
 	    	</p>
-	    	<ul>
-	    		<li>Email: <a href="mailto:hello@skyair.com">hello@skyair.com</a></li>
-	    		<li>Phone: 604.888.8888</li>
-	    	</ul>
-	    	<hr />
+
+
 	    	<form>
 	    		<label><h2>Name</h2></label>
                 <input type="text" id="name">
+                <br>
 
 	    		<label><h2>Email</h2></label>
-                <p class="info note">*We need this so we can respond to you.</a>
                 <input type="email" id="email" required>
+                <p class="info note">*Needed to email you back.</p>
+                <br>
 
-	    		<label><h2>Your Message</h2></label>
-                <span class="note">Please note any special requests.</span>
+	    		<label><h2 class="message-title">Message</h2></label>
                 <textarea rows="4" cols="22" id="message" required></textarea>
                 <a href="#" class="button highlighted">SUBMIT</a>
 	    	</form>
 	    	
     	</section>
     	<section id="part2">
-			<h2>
-	    		Where We Are
-	    	</h2>
-    		<p>1111 Mountain Pkwy<br />
-				Burnaby BC<br />
-				A1I 2R3
-	    	</p>
-	    	<p>
-	    		[MAP GOES HERE]
-	    	</p>
+    		<h2>
+    			Ways to reach us
+    		</h2>
+    		<ul>
+	    		<li><h3>Email:</h3> <a href="mailto:hello@skyair.com">hello@skyair.com</a></li>
+	    		<li><h3>Phone:</h3> 604.888.8888</li>
+	    		<li><h3>Address:</h3>  1111 Mountain Pkwy, Burnaby BC, A1I 2R3</li>
+	    	</ul>
+	    	<!-- Google Map embed code from Google. -->
+	    	<iframe width="425" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?q=1111+mountain+pkwy+burnaby&amp;hl=en&amp;sll=49.274191,-122.936059&amp;sspn=0.011928,0.033023&amp;t=h&amp;hnear=1111+Burnaby+Mountain+Pkwy,+Burnaby,+Greater+Vancouver,+British+Columbia&amp;ie=UTF8&amp;hq=&amp;z=14&amp;ll=49.274191,-122.936059&amp;output=embed"></iframe><br /><small><a href="https://maps.google.ca/maps?q=1111+mountain+pkwy+burnaby&amp;hl=en&amp;sll=49.274191,-122.936059&amp;sspn=0.011928,0.033023&amp;t=h&amp;hnear=1111+Burnaby+Mountain+Pkwy,+Burnaby,+Greater+Vancouver,+British+Columbia&amp;ie=UTF8&amp;hq=&amp;z=14&amp;ll=49.274191,-122.936059&amp;source=embed" class="google-link">View Larger Map</a></small>
+	    	
     	</section>
     </div>
     
