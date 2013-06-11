@@ -69,6 +69,10 @@ ul li a:hover
 	color:#999;
 }
 
+a{
+	color:rgb(53, 121, 108);
+}
+
 /* --------------------------------------- CONTENT -----------------------------------*/
 
 .main
@@ -321,51 +325,6 @@ input[type="radio"]:checked~label{
 	width:166px;
 }
 
-/* --------------------------------------- FAQ -----------------------------------*/
-
-#faq #part1{
-	width:295px;
-	border-right:1px solid white;
-}
-
-#faq #part2{
-	width:560px;
-}
-
-#faq #questions
-{
-	margin-top:55px;
-}
-
-#faq h1
-{
-	margin:10px 0;
-	padding:0px;
-	font-size:1.5em;
-	font-weight:600;
-}
-
-#faq ul{
-	margin:0px;
-	padding:0px;
-}
-
-#faq ul li{
-	list-style:none;
-}
-
-#faq ul li a{
-	color:#246b78;
-}
-
-#faq ul li a:hover{
-	color:#292929;
-}
-
-#faq .answer {
-	margin-top:55px;
-	display:none;
-}
 
 /* --------------------------------------- Tours & Packages -----------------------------------*/
 
@@ -495,8 +454,106 @@ input[type="radio"]:checked~label{
     text-decoration:line-through;
 }
 
+/* --------------------------------------- ABOUT US -----------------------------------*/
+
+#about-us #part1{
+	width:33%;
+}
+
+#about-us #part2{
+	width:54%;
+}
+
+#about-us h1{
+	margin-bottom: -10px;
+}
+
+#about-us #part1 h2{
+	margin-bottom: -5px;
+}
+
+#about-us #part2 h2{
+	margin: 26px 0px 10px;
+}
+
+.founder{
+	width:48%;
+	float:left;
+	margin-right:10px;
+}
+
+.founder img{
+	width:77%;
+}
+
+.job{
+	font-weight:normal;
+	margin-left:10px;
+}
+
+.founder p{
+	font-size:0.8em;
+}
+
+.founder h3{
+		font-size:1em;
+		margin: 0;
+}
 
 
+
+
+p{
+	font-size:0.9em
+}
+
+
+
+/* --------------------------------------- FAQ -----------------------------------*/
+
+#faq #part1{
+	width:295px;
+	border-right:1px solid white;
+}
+
+#faq #part2{
+	width:560px;
+}
+
+#faq #questions
+{
+	margin-top:55px;
+}
+
+#faq h1
+{
+	margin:10px 0;
+	padding:0px;
+	font-size:1.5em;
+	font-weight:600;
+}
+
+#faq ul{
+	margin:0px;
+	padding:0px;
+}
+
+#faq ul li{
+	list-style:none;
+}
+
+#faq ul li a{
+	color:#246b78;
+}
+
+#faq ul li a:hover{
+	color:#292929;
+}
+
+#faq .answer {
+	margin-top:55px;
+	display:none;
+}
 
 
 /*-------------------------------------- CONTACT US ------------------------------------*/
@@ -573,7 +630,6 @@ input[type="radio"]:checked~label{
 
 .google-link{
 	text-align:left;
-	color:rgb(53, 121, 108);
 }
 
 /* --------------------------------------- FOOTER -----------------------------------*/
