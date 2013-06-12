@@ -21,8 +21,11 @@
     
         <div class="main" id="flight-schedule">
             <section id="part1">
+                <h1>Flight Schedule</h1>
                 <div class="cal-month">
-                    <h2>June</h2>
+                    <div class="cal-row">
+                        <h2><a href="#" class="month-picker">&laquo;</a> <span class="month-picker">June</span> <a href="#" class="month-picker">&raquo;</a></h2>
+                    </div>
                     <div class="call-row header">
                         <div class="cal-cell header">
                             Sun

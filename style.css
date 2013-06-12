@@ -71,6 +71,11 @@ ul li a:hover
 
 a{
 	color:rgb(53, 121, 108);
+    text-decoration:none;
+}
+
+a:hover {
+    color:#292929;
 }
 
 /* --------------------------------------- CONTENT -----------------------------------*/
@@ -153,7 +158,6 @@ input[type="date"], textarea, select{
 /*---------------------------------------- HOME --------------------------------------*/
 
 #home #part1{
-	border-right:1px solid white;
     width:429px;
 }
 
@@ -325,8 +329,6 @@ input[type="radio"]:checked~label{
 	width:166px;
 }
 
-
-
 /* --------------------------------------- Enter Code (Manage Bookings) -----------------------------------*/
 
 #enter-code #part1{
@@ -394,7 +396,8 @@ input[type="radio"]:checked~label{
 
 /* --------------------------------------- Tours & Packages -----------------------------------*/
 
-#tours-packages #part1 {
+#tours-packages #part2 {
+    width:650px;
 }
 
 #tours-packages #packages {
@@ -421,7 +424,6 @@ input[type="radio"]:checked~label{
 
 #tours-packages .packageName {
     background-color:#fff;
-    opacity:0.6;
     width:208px;
     height:97px;
     color:black;
@@ -443,33 +445,52 @@ input[type="radio"]:checked~label{
 }
 
 #tours-packages #part2 h2{
+    
+}
+
+#tours-packages #part2 h3{
     font-size:1.2em;
     margin-top:5px;
     color:#246b78;
     font-weight:400;
 }
 
-#tours-packages iframe {
-    margin-top:2px;
+#tours-packages .fine-print{
+    font-size:0.7em;
+    color:grey;
+}
+
+#tours-packages #part2 a{
+    font-weight:bold;
 }
 
 /* --------------------------------------- Flight Schedule -----------------------------------*/
 
 #flight-schedule #part1{
     width:562px;
-    border-right:1px solid white;
 }
 
 #flight-schedule .cal-month{
     width:560px;
-    height:330px;
-    margin:9px auto;
+    margin:0px auto;
+}
+
+#flight-schedule h1{
+    margin:15px 0 0;
 }
 
 #flight-schedule .cal-month h2{
     font-size:16px;
     margin:3px 4px;
     padding:0px;
+}
+
+#flight-schedule .month-picker{
+    margin-left:30px;
+}
+
+#flight-schedule .cal-row{
+    text-align:right;
 }
 
 #flight-schedule .cal-row{
@@ -479,7 +500,7 @@ input[type="radio"]:checked~label{
 
 #flight-schedule .cal-cell{
     width:68px;
-    height:38px;
+    height:28px;
     margin:1px;
     background-color: rgba(255, 255, 255, 0.4);
     float:left;
@@ -519,7 +540,6 @@ input[type="radio"]:checked~label{
 #flight-schedule .details ul .booked {
     text-decoration:line-through;
 }
-
 /* --------------------------------------- ABOUT US -----------------------------------*/
 
 #about-us #part1{
@@ -579,7 +599,6 @@ p{
 
 #faq #part1{
 	width:295px;
-	border-right:1px solid white;
 }
 
 #faq #part2{
