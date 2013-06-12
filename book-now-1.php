@@ -4,9 +4,9 @@
 	
     <?php include 'nav.php' ?>
     
-    <div class="main" id="book-now">
+    <div class="main book-now" id="book-now-1">
         <div id="progress">
-            <span class="active">1</span> <span class="separator">&middot;&middot;&middot;</span> 2 <span class="separator">&middot;&middot;&middot;</span> 3
+            <span class="active">1</span> <span class="separator">&middot;&middot;&middot;</span> 2 <span class="separator">&middot;&middot;&middot;</span> 3 <span class="separator">&middot;&middot;&middot;</span> 4
         </div>
         <form>
         	<section id="part1">
@@ -86,7 +86,7 @@
                     <label><h2>Comments</h2></label>
                     <span class="note">Please note any special requests.</span>
                     <textarea rows="4" cols="22"></textarea>
-                    <a href="#" class="button highlighted">CONFIRM</a>
+                    <a href="book-now-2.php" class="button highlighted">CONFIRM</a>
                 </div>
             </section>
         </form>

@@ -195,9 +195,9 @@
                     <h3>May 26</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d1-details">
@@ -205,24 +205,24 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d2-details">
                     <h3>May 28</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d3-details">
                     <h3>May 29</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
                         <li class="booked">1:00PM</li>
                         <li class="booked">6:00PM</li>
                     </ul>
@@ -232,7 +232,7 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
                         <li class="booked">6:00PM</li>
                     </ul>
                 </div>
@@ -241,26 +241,26 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d6-details">
                     <h3>June 1</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d7-details">
                     <h3>June 2</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d8-details">
@@ -268,7 +268,7 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
                         <li class="booked">6:00PM</li>
                     </ul>
                 </div>
@@ -286,7 +286,7 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
                         <li class="booked">6:00PM</li>
                     </ul>
                 </div>
@@ -295,8 +295,8 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d12-details">
@@ -312,9 +312,9 @@
                     <h3>June 8</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d14-details">
@@ -322,7 +322,7 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
                         <li class="booked">6:00PM</li>
                     </ul>
                 </div>
@@ -330,9 +330,9 @@
                     <h3>June 10</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d16-details">
@@ -348,7 +348,7 @@
                     <h3>June 12</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
                         <li class="booked">1:00PM</li>
                         <li class="booked">6:00PM</li>
                     </ul>
@@ -358,8 +358,8 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d19-details">
@@ -367,7 +367,7 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
                         <li class="booked">6:00PM</li>
                     </ul>
                 </div>
@@ -375,7 +375,7 @@
                     <h3>June 15</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
                         <li class="booked">1:00PM</li>
                         <li class="booked">6:00PM</li>
                     </ul>
@@ -384,7 +384,7 @@
                     <h3>June 16</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
                         <li class="booked">1:00PM</li>
                         <li class="booked">6:00PM</li>
                     </ul>
@@ -393,9 +393,9 @@
                     <h3>June 17</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d23-details">
@@ -403,7 +403,7 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
                         <li class="booked">6:00PM</li>
                     </ul>
                 </div>
@@ -411,7 +411,7 @@
                     <h3>June 19</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
                         <li class="booked">1:00PM</li>
                         <li class="booked">6:00PM</li>
                     </ul>
@@ -420,7 +420,7 @@
                     <h3>June 20</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
                         <li class="booked">1:00PM</li>
                         <li class="booked">6:00PM</li>
                     </ul>
@@ -430,8 +430,8 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d27-details">
@@ -439,7 +439,7 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
                         <li class="booked">6:00PM</li>
                     </ul>
                 </div>
@@ -447,9 +447,9 @@
                     <h3>June 23</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d29-details">
@@ -465,7 +465,7 @@
                     <h3>June 25</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
                         <li class="booked">1:00PM</li>
                         <li class="booked">6:00PM</li>
                     </ul>
@@ -484,8 +484,8 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d33-details">
@@ -493,7 +493,7 @@
                     <p>Flight Times:</p>
                     <ul>
                         <li class="booked">9:00AM</li>
-                        <a href="book-now.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
                         <li class="booked">6:00PM</li>
                     </ul>
                 </div>
@@ -501,17 +501,17 @@
                     <h3>June 29</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d35-details">
                     <h3>June 30</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
                         <li class="booked">6:00PM</li>
                     </ul>
                 </div>
@@ -519,17 +519,17 @@
                     <h3>July 1</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
-                        <a href="book-now.php"><li>6:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>6:00PM</li></a>
                     </ul>
                 </div>
                 <div class="details" id="d37-details">
                     <h3>July 2</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
-                        <a href="book-now.php"><li>1:00PM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>1:00PM</li></a>
                         <li class="booked">6:00PM</li>
                     </ul>
                 </div>
@@ -537,7 +537,7 @@
                     <h3>July 3</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
                         <li class="booked">1:00PM</li>
                         <li class="booked">6:00PM</li>
                     </ul>
@@ -565,7 +565,7 @@
                     <h3>July 6</h3>
                     <p>Flight Times:</p>
                     <ul>
-                        <a href="book-now.php"><li>9:00AM</li></a>
+                        <a href="book-now-1.php"><li>9:00AM</li></a>
                         <li class="booked">1:00PM</li>
                         <li class="booked">6:00PM</li>
                     </ul>

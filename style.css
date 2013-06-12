@@ -129,22 +129,6 @@ section
 	opacity:0.75;
 }
 
-#progress {
-	font-size: 1.3em;
-	float: right;
-	margin: 30px 30px;
-	color:#a8acad;
-}
-
-#progress .active{
-	color:black;
-	font-weight:bold;
-}
-
-#progress .separator{
-	font-size: 0.6em;
-}
-
 fieldset{
 	border: 1px solid #acd5c3;
 	background-color:white;
@@ -223,110 +207,211 @@ input[type="date"], textarea, select{
 	color:#292929;
 }
 
-/*-------------------------------------- BOOK NOW ------------------------------------*/
+/*-------------------------------------- BOOK NOW (All) ------------------------------------*/
 
-
-#book-now form{
-	height:100%;
-}
-
-#book-now h1{
+.book-now h1{
     font-weight:normal;
 	font-size: 2.67em;
 	margin: 39px 0 0 0
 }
 
-#choose-package{
+.book-now #progress {
+	font-size: 1.3em;
+	float: right;
+	margin: 30px 30px;
+	color:#a8acad;
+}
+
+.book-now #progress .active{
+	color:black;
+	font-weight:bold;
+}
+
+.book-now #progress .separator{
+	font-size: 0.6em;
+}
+
+.book-now .button{
+    position:absolute;
+    right:37px;
+    bottom:50px;
+}
+
+.book-now .highlighted{
+    width:166px;
+    right:22px;
+}
+
+.book-now .back{
+    position:absolute;
+    bottom:50px;
+    left:30px;
+}
+
+.book-now #part2{
+    margin-top: -84px;
+}
+
+/*-------------------------------------- BOOK NOW 1 ------------------------------------*/
+
+
+#book-now-1 form{
+	height:100%;
+}
+
+#book-now-1 #choose-package{
 	margin-top:10px;;
 }
 
-#book-now #part1 {
+#book-now-1 #part1 {
     width:429px;
 }
 
-#book-now .package h2{
+#book-now-1 .package h2{
 	font-size: 1em;
 	width: 91%;
 	margin: 0 auto;
 }
 
-#book-now #part2{
+#book-now-1 #part2{
 	width: 421px;
-	margin-top: -95px;
 	padding: 0px 33px;
 }
 
-#book-now #part2 h2{
+#book-now-1 #part2 h2{
 	font-size: 1em;
 	margin-bottom: -3px;
 }
 
-#book-now input[type="date"], #book-now select{
+#book-now-1 input[type="date"], #book-now select{
 	display:block;
 	width:173px;
 }
 
-#book-now #FlightDate
+#book-now-1 #FlightDate
 {
 	width:157px;
 }
 
-#book-now textarea{
+#book-now-1 textarea{
 	width:194px;
 }
 
-#book-now .form-column{
+#book-now-1 .form-column{
 	width:50%;
 	float:left;
 	margin-top: 92px;
 }
 
 
-#book-now a.info{
+#book-now-1 a.info{
 	font-size:0.8em;
 	color:#35796c;
 	text-decoration: none;
 }
 
-#book-now .package {
+#book-now-1 .package {
 	width: 33%;
 	float: left;
 	text-align: center;
 }
 
-#book-now .package img{
+#book-now-1 .package img{
 	width: 93%;
 	float:none;
 	margin:0;
     margin-top:-16px;
 }
 
-#book-now .package label:hover{
+#book-now-1 .package label:hover{
     cursor:pointer;
 }
 
-#book-now input[type="radio"]{
+#book-now-1 input[type="radio"]{
 	margin: 6px auto;
     visibility:hidden;
 }
 
 /* Trying to get the non-selected package label (image and title) to fade out.*/
-input[type="radio"]~label{
+#book-now-1 input[type="radio"]~label{
 	opacity:0.5;
 }
 
-input[type="radio"]:checked~label{
+#book-now-1 input[type="radio"]:checked~label{
 	opacity:1.0;
 }
 
-#book-now .note{
+#book-now-1 .note{
 	font-size:0.8em;
 	color:#504e4f;
 	display:block;
 }
 
-#book-now .button{
-	width:166px;
+/*-------------------------------------- BOOK NOW 2 ------------------------------------*/
+
+#book-now-2 #part1{
+    width:643px;
+}
+
+#book-now-2 #part2 h2{
+    margin-top:240px;
+}
+
+#book-now-2 #selection{
+    border: 1px solid #acd5c3;
+	background-color:white;
+    position:absolute;
+    padding:10px;
+}
+
+#book-now-2 #selection img{
+    float:left;
+    margin-right:10px;
+}
+
+#book-now-2 #selection ul{
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#book-now-2 #selection .titles{
+    font-weight:bold;
+    width:80px;
+}
+
+#book-now-2 #selection .price{
+    font-size:1.2em;
+    font-weight:bold;
+    border-top:1px solid #acd5c3;
+}
+
+/*-------------------------------------- BOOK NOW 3 ------------------------------------*/
+
+/*-------------------------------------- BOOK NOW 4 ------------------------------------*/
+
+#book-now-4 #part1{
+    width:615px;
+}
+
+#book-now-4 #part2{
+    width:236px;
+}
+
+#book-now-4 #part2 p{
+    margin-top:210px;
+    font-size:0.85em;
+}
+
+#book-now-4 #confirmation{
+    font-size:2em;
+    background-color:white;
+    display:block;
+    padding:10px;
+    width:150px;
+    text-align:center;
+    border:1px solid #acd5c3;
 }
 
 /* --------------------------------------- Enter Code (Manage Bookings) -----------------------------------*/
@@ -344,14 +429,14 @@ input[type="radio"]:checked~label{
 }
 
 #enter-code input[type="text"]{
-	padding:7px 10px;
+	padding:6px 10px;
 }
 
 #enter-code .button{
 	width:150px;
 	display: inline;
 	padding: 3px 15px;
-	top: 3px;
+	top: 2px;
 }
 
 /* --------------------------------------- Manage Bookings -----------------------------------*/
