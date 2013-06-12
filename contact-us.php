@@ -14,17 +14,17 @@
 
 
 	    	<form>
-	    		<label><h2>Name</h2></label>
+	    		<label for="name"><h2>Name</h2></label>
                 <input type="text" id="name">
                 <br>
 
-	    		<label><h2>Email</h2></label>
+	    		<label for="email"><h2>Email</h2></label>
                 <input type="email" id="email" required>
                 <p class="info note">*Needed to email you back.</p>
                 <br>
 
-	    		<label><h2 class="message-title">Message</h2></label>
-                <textarea rows="4" cols="22" id="message" required></textarea>
+	    		<label for="message"><h2 class="message-title">Message</h2></label>
+                <textarea rows="4" cols="22" id="message" required placeholder="Dear Sky Air..."></textarea>
                 <a href="#" class="button highlighted">SUBMIT</a>
 	    	</form>
 	    	

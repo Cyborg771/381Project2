@@ -326,6 +326,72 @@ input[type="radio"]:checked~label{
 }
 
 
+
+/* --------------------------------------- Enter Code (Manage Bookings) -----------------------------------*/
+
+#enter-code #part1{
+	width:45%;
+	margin-top: 56px;
+	height: 250px;
+}
+
+#enter-code #part2{
+	width:41%;
+	margin-top: 115px;
+	height: 200px;
+}
+
+#enter-code input[type="text"]{
+	padding:7px 10px;
+}
+
+#enter-code .button{
+	width:150px;
+	display: inline;
+	padding: 3px 15px;
+	top: 3px;
+}
+
+/* --------------------------------------- Manage Bookings -----------------------------------*/
+
+#manage-bookings #part1{
+	width:50%;
+}
+
+#manage-bookings #part2{
+	width:30%;
+	margin-top: 107px;
+	height: 100px;
+}
+
+#booking-summaries > li{
+	border: 1px solid #acd5c3;
+	background-color:white;
+	padding: 2px 26px 10px 22px;
+}
+
+#booking-summaries h4{
+	display:inline;
+}
+
+#booking-summaries h3{
+	font-size: 1.12em;
+}
+
+#booking-summaries h3 .editable{
+	text-decoration:underline;
+}
+
+#booking-summaries ul li{
+	list-style-type: none;
+	margin-bottom:5px;
+}
+
+#booking-summaries li a{
+	color:rgb(53, 121, 108);;
+}
+
+
 /* --------------------------------------- Tours & Packages -----------------------------------*/
 
 #tours-packages #part1 {

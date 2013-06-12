@@ -9,7 +9,7 @@
         	<h1>Helicopter flights you'll never forget. Ever.</h1>
             <p>You can't say that you've experienced the rocky mountains until you've seen them from the sky. Sky Air has provided exciting and safe helicopter experiences since 2001. Let us take you there in style.</p>
             <a href="book-now.php" class="button highlighted">BOOK NOW</a>
-            <a href="book-now.php" class="button">MANAGE BOOKINGS</a>
+            <a href="enter-code.php" class="button">MANAGE BOOKINGS</a>
         </section>
         <section id="part2">
             <a href="tours-packages.php#p1">
