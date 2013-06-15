@@ -1,25 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-body
-{
-	/*background-image:url(images/background.jpg);
-	background-size:100%;
-	background-repeat:no-repeat;*/
-
-	/* Full width background method from this tutorial: http://css-tricks.com/perfect-full-page-background-image/ */
-	background: url(images/background.jpg) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	/* End full width background*/
-
-	background-color:#333;
-	font-size:14px;
-	font-family:"Open Sans", Arial, Helvetica, sans-serif;
-}
-
 header
 {
 	width:980px;
@@ -32,6 +13,8 @@ header
 	margin: 0 0 -12px -22px;
 
 }
+
+/* --------------------------------------- NAVIGATION -----------------------------------*/
 
 nav
 {
@@ -58,24 +41,15 @@ nav ul li
 	display:inline;
 }
 
-ul li a
+nav ul li a
 {
 	color:#FFF;
 	text-decoration:none;
 }
 
-ul li a:hover
+nav ul li a:hover
 {
 	color:#999;
-}
-
-a{
-	color:rgb(53, 121, 108);
-    text-decoration:none;
-}
-
-a:hover {
-    color:#292929;
 }
 
 /* --------------------------------------- CONTENT -----------------------------------*/
@@ -103,7 +77,7 @@ section
 	text-decoration:none;
 	color:#292929;
 	margin-top:20px;
-	background-image:url(images/button_texture.png);
+	background-image:url(../images/button_texture.png);
 	background-repeat:repeat-x;
 	border:1px solid #b1b2b2;
 	position:relative;
@@ -120,7 +94,7 @@ section
 {
 	font-weight:600;
 	margin-right:15px;
-	background-image:url(images/button_highlighted_texture.png);
+	background-image:url(../images/button_highlighted_texture.png);
 	border:1px solid #49a994;
 }
 
@@ -496,15 +470,15 @@ input[type="date"], textarea, select{
 }
 
 #tours-packages #package1{
-    background-image: url("images/package_1.png");
+    background-image: url("../images/package_1.png");
 }
 
 #tours-packages #package2{
-    background-image: url("images/package_2.png");
+    background-image: url("../images/package_2.png");
 }
 
 #tours-packages #package3{
-    background-image: url("images/package_3.png");
+    background-image: url("../images/package_3.png");
 }
 
 #tours-packages .packageName {
@@ -850,4 +824,15 @@ footer ul li
 	list-style:none;
 	font-weight:300;
 	font-size:0.9em;
+}
+
+footer ul li a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+footer ul li a:hover
+{
+	color:#999;
 }

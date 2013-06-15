@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+    width:100%;
+}
+
+#logo {
+    display:block;
+    margin:0 auto;
+}
+
+/* --------------------------------- NAVIGATION -----------------------------------------------------*/
+
+nav
+{
+    display:block;
+    margin:0 auto;
+	background-color:rgba(22, 28, 48, 0.5);
+    width:530px;
+    height:40px;
+}
+
+nav ul
+{
+    padding:0px;
+	margin:10px;
+    position:relative;
+    top:10px;
+}
+
+nav ul li
+{
+	list-style:none;
+	margin:0 4px;
+	display:inline;
+}
+
+nav ul li a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+nav ul li a:hover
+{
+	color:#999;
+}
+
+/* --------------------------------- CONTENT --------------------------------------------------------*/
+
+.main {
+    width:478px;
+    margin:10px auto;
+    padding:25px;
+    background-color:rgba(255, 255, 255, 0.8);
+    border:1px solid white;
+}
+
+.button, button
+{
+	display:block;
+	text-decoration:none;
+	color:#292929;
+	margin-top:20px;
+	background-image:url(../images/button_texture.png);
+	background-repeat:repeat-x;
+	border:1px solid #b1b2b2;
+	position:relative;
+	font-size:20px;
+}
+
+.button{
+	padding:10px 20px;
+	height:27px;
+	text-align:center;
+}
+
+.highlighted
+{
+	font-weight:600;
+	background-image:url(../images/button_highlighted_texture.png);
+	border:1px solid #49a994;
+}
+
+.button:hover
+{
+	opacity:0.75;
+}
+
+/*---------------------------------- HOME -----------------------------------------------------------*/
+
+#home h1{
+    margin:0 auto;
+    padding:0;
+    width:380px;
+    font-weight:normal;
+}
+
+#home .button {
+    float:left;
+}
+
+#home .highlighted {
+    margin-right:22px;
+    margin-left:32px
+}
+
+#home #part1 {
+    height:255px;
+}
+
+#home .package{
+    height:120px;
+    width:414px;
+    margin:0 auto;
+}
+
+#home .package img{
+    float:left;
+}
+
+#home .package h2
+{
+	margin:0;
+	padding:0;
+	font-size:16px;
+}
+
+#home .package p
+{
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+
+#home .package_description
+{
+
+	float:left;
+	width:195px;
+	clear:right;
+	margin-left:10px;
+	color:black;
+}
+
+#home a .package span.details
+{
+	color:#246b78;
+	text-decoration:none;
+	font-weight:600;
+}
+
+#home a:hover .package span.details
+{
+	color:#292929;
+}
+
+/*---------------------------------- BOOK NOW (All) -------------------------------------------------*/
+
+/*---------------------------------- BOOK NOW 1 -----------------------------------------------------*/
+
+/*---------------------------------- BOOK NOW 2 -----------------------------------------------------*/
+
+/*---------------------------------- BOOK NOW 3 -----------------------------------------------------*/
+
+/*---------------------------------- BOOK NOW 4 -----------------------------------------------------*/
+
+/* --------------------------------- Enter Code (Manage Bookings) -----------------------------------*/
+
+/* --------------------------------- Manage Bookings ------------------------------------------------*/
+
+/* --------------------------------- Tours & Packages -----------------------------------------------*/
+
+/* --------------------------------- Flight Schedule ------------------------------------------------*/
+
+/* --------------------------------- ABOUT US -------------------------------------------------------*/
+
+#about-us h1{
+    margin:0px;
+}
+
+#about-us .founder img{
+    height:170px;
+    float:left;
+    margin-right:10px;
+}
+
+.job{
+	font-weight:normal;
+	margin-left:10px;
+}
+
+.founder p{
+	font-size:0.8em;
+}
+
+.founder h3{
+		font-size:1em;
+		margin: 0;
+}
+
+.founder {
+    height:170px;
+    margin-top:20px;
+}
+
+p{
+	font-size:0.9em
+}
+
+/* --------------------------------- FAQ ------------------------------------------------------------*/
+
+/*---------------------------------- CONTACT US -----------------------------------------------------*/
+
+/* --------------------------------- FOOTER ---------------------------------------------------------*/
+
+footer
+{
+	width:530px;
+    height:200px;
+	margin:0 auto;
+	background-color:rgba(22, 28, 48, 0.5);
+}
+
+.footer-info
+{
+	position:relative;
+    width:225px;
+	height:100px;
+	float:left;
+	padding-top:15px;
+	padding-left:40px;
+}
+
+footer h2
+{
+	font-size:0.9em;
+	color:#FFF;
+	margin:0;
+	padding:0;
+	float:left;
+	font-weight:600;
+}
+
+footer #f-contact{
+    margin-right:28px;
+}
+
+footer #f-policies{
+    margin-right:3px;
+}
+
+footer h2 a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+footer ul
+{
+	margin:0 0 0 10px;
+	padding:0;
+    float:left;
+}
+
+footer ul li
+{
+	color:#FFF;
+	list-style:none;
+	font-weight:300;
+	font-size:0.9em;
+}
+
+footer ul li a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+footer ul li a:hover
+{
+	color:#999;
+}
