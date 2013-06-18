@@ -14,7 +14,7 @@ header {
 /* --------------------------------- NAVIGATION -----------------------------------------------------*/
 
 nav{
-	width: 383px;
+	width: 302px;
 	margin: 0 auto;
 	height: 54px;
 }
@@ -35,17 +35,53 @@ nav select{
 /* --------------------------------- CONTENT --------------------------------------------------------*/
 
 .main {
-    width:330px;
+    width: 250px;
     margin:10px auto;
     padding:25px;
 
 }
 
+h1{
+	margin:0;
+}
 
 /*---------------------------------- HOME -----------------------------------------------------------*/
 
-/*---------------------------------- BOOK NOW (All) -------------------------------------------------*/
 
+#home .button{
+	float:none;
+}
+
+#home #part2{
+	height:630px;
+	margin-top: 37px;
+}
+
+#home .package{
+	margin: 17px auto;
+	width: 208px;
+}
+
+
+#home .package p
+{
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+
+#home .package_description{
+	margin-bottom:25px;
+}
+
+
+
+/*---------------------------------- BOOK NOW (All) -------------------------------------------------*/
+.book-now #progress {
+	margin: -10px 0;
+	float: none;
+	text-align: center;
+}
 /*---------------------------------- BOOK NOW 1 -----------------------------------------------------*/
 
 /*---------------------------------- BOOK NOW 2 -----------------------------------------------------*/
@@ -61,18 +97,86 @@ nav select{
 /* --------------------------------- Tours & Packages -----------------------------------------------*/
 
 /* --------------------------------- Flight Schedule ------------------------------------------------*/
+#flight-schedule #part1{
+    position:relative;
+    min-height:350px;
+}
+
+#flight-schedule .cal-month{
+    width:260px;
+}
+
+#flight-schedule .cal-row{
+    width:260px;
+}
+
+#flight-schedule .cal-cell{
+    width:24px;
+}
 
 /* --------------------------------- ABOUT US -------------------------------------------------------*/
 
+.founder {
+	margin-bottom:25px;
+}
+.founder img{
+	width:100%;
+}
+
 /* --------------------------------- FAQ ------------------------------------------------------------*/
+#faq h1
+{
+	margin:0px;
+	padding:0px;
+	font-size:1.5em;
+	font-weight:600;
+}
+
+#faq ul{
+    margin-bottom:10px;
+}
+
+#faq #part2{
+    border-top:1px solid black;
+    margin-top:15px;
+    padding-top:10px;
+}
 
 /*---------------------------------- CONTACT US -----------------------------------------------------*/
+
+#contact-us .subtitle {
+    margin-top: 0px;
+}
+
+#contact-us form h2 {
+	display:block;
+	margin-bottom:0;
+}
+
+#contact-us .message-title {
+    top: 0px;
+}
+
+#contact-us input[type="text"], #contact-us input[type="email"], #contact-us textarea  {
+	margin-left:0;
+	width: 91%;
+}
+
+#contact-us .button{
+	width: 83%;
+	margin-left:0;
+}
+
+.large-frame{
+	display:none;
+}
+
 
 /* --------------------------------- FOOTER ---------------------------------------------------------*/
 
 footer
 {
-	width:383px;
+	width:302px;
     height:250px;
 	margin:0 auto;
 }
@@ -80,8 +184,8 @@ footer
 .footer-info
 {
 	height:100px;
-	width: 125px;
-	padding-left: 50px;
+	width: 114px;
+	padding-left: 29px;
 }
 
 footer ul{

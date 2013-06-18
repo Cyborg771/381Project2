@@ -102,7 +102,61 @@ nav ul li a:hover
 
 /*---------------------------------- HOME -----------------------------------------------------------*/
 
+#home h1
+{
+  font-weight:normal;
+  padding:0;
+}
+
+#home .button{
+  float:left;
+}
+
+#home .package h2
+{
+  margin:0;
+  padding:0;
+  font-size:16px;
+}
+
+#home .package_description
+{
+  float:left;
+  width:195px;
+  clear:right;
+  margin-left:10px;
+  color:black;
+}
+
+
+#home a .package span.details
+{
+  color:#246b78;
+  text-decoration:none;
+  font-weight:600;
+}
+
+#home a:hover .package span.details
+{
+  color:#292929;
+}
+
+
 /*---------------------------------- BOOK NOW (All) -------------------------------------------------*/
+.book-now #progress {
+  font-size: 1.3em;
+  float: right;
+  color:#a8acad;
+}
+
+.book-now #progress .active{
+  color:black;
+  font-weight:bold;
+}
+
+.book-now #progress .separator{
+  font-size: 0.6em;
+}
 
 /*---------------------------------- BOOK NOW 1 -----------------------------------------------------*/
 
@@ -119,11 +173,120 @@ nav ul li a:hover
 /* --------------------------------- Tours & Packages -----------------------------------------------*/
 
 /* --------------------------------- Flight Schedule ------------------------------------------------*/
+#flight-schedule h1{
+    margin:15px 0 0;
+}
 
+#flight-schedule .cal-month{
+    margin:0px auto;
+}
+
+#flight-schedule .cal-row{
+    float:left;
+}
+
+#flight-schedule .cal-month h2{
+    font-size:16px;
+    margin:3px 4px;
+    padding:0px;
+}
+
+#flight-schedule .month-picker{
+    margin-left:30px;
+}
+
+#flight-schedule .cal-row{
+    text-align:right;
+}
+
+
+
+#flight-schedule .cal-cell{
+    height:28px;
+    margin:1px;
+    background-color: rgba(255, 255, 255, 0.4);
+    float:left;
+    padding:5px;
+}
+
+
+#flight-schedule .cal-cell:hover{
+    cursor:pointer;
+    cursor:hand;
+}
+
+#flight-schedule .header{
+    height:18px;
+}
+
+#flight-schedule .header:hover{
+    cursor:default;
+}
+
+#flight-schedule .cell-faded{
+    color:rgba(0, 0, 0, 0.3);
+}
+
+#flight-schedule .details h3 {
+    margin:32px 0px;
+}
+
+#flight-schedule .details a{
+    text-decoration:none;
+    color:#246b78;
+}
+
+#flight-schedule .details a:hover{
+    color:#292929;
+}
+
+#flight-schedule .details ul .booked {
+    text-decoration:line-through;
+}
 /* --------------------------------- ABOUT US -------------------------------------------------------*/
+
+#about-us p{
+  font-size:0.9em
+}
+
+.founder p{
+  font-size:0.8em;
+}
+
+.founder h3{
+    font-size:1em;
+    margin: 0;
+}
+
+.job{
+  font-weight:normal;
+  margin-left:10px;
+}
+
+
 
 /* --------------------------------- FAQ ------------------------------------------------------------*/
 
+#faq ul{
+  margin:0px;
+  padding:0px;
+}
+
+#faq ul li{
+  list-style:none;
+}
+
+#faq ul li a{
+  color:#246b78;
+}
+
+#faq ul li a:hover{
+  color:#292929;
+}
+
+#faq .answer {
+  display:none;
+}
 /*---------------------------------- CONTACT US -----------------------------------------------------*/
 
 #contact-us #part2{
@@ -146,6 +309,12 @@ nav ul li a:hover
 #contact-us h3{
   display:inline;
   font-size:1em;
+}
+
+#contact-us .note{
+  color:#504e4f;
+  display:inline;
+  font-size:0.8em;
 }
 
 #contact-us ul{

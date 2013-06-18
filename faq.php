@@ -31,7 +31,7 @@
         	<div id="questions">
                 <h1>Frequently Asked Questions</h1>
                 <ul>
-                    <li><a class="question" href="#" id="pickup">Where do I go to get picked up?</a></li>
+                    <li><a class="question" href="#pickup-answer" id="pickup">Where do I go to get picked up?</a></li>
                     <li><a class="question" href="#" id="what-to-bring">What should I bring?</a></li>
                     <li><a class="question" href="#" id="additional">Additional Questions?</a></li>
                     <li><a class="question" href="#" id="life">What is the meaning of life?</a></li>

@@ -35,6 +35,7 @@ nav ul li
 }
 
 
+
 /* --------------------------------- CONTENT --------------------------------------------------------*/
 
 .main {
@@ -49,13 +50,7 @@ nav ul li
 
 #home h1{
     margin:0 auto;
-    padding:0;
     width:380px;
-    font-weight:normal;
-}
-
-#home .button {
-    float:left;
 }
 
 #home .highlighted {
@@ -77,13 +72,6 @@ nav ul li
     float:left;
 }
 
-#home .package h2
-{
-	margin:0;
-	padding:0;
-	font-size:16px;
-}
-
 #home .package p
 {
 	margin:0;
@@ -91,27 +79,7 @@ nav ul li
 	font-size:12px;
 }
 
-#home .package_description
-{
 
-	float:left;
-	width:195px;
-	clear:right;
-	margin-left:10px;
-	color:black;
-}
-
-#home a .package span.details
-{
-	color:#246b78;
-	text-decoration:none;
-	font-weight:600;
-}
-
-#home a:hover .package span.details
-{
-	color:#292929;
-}
 
 /*---------------------------------- BOOK NOW (All) -------------------------------------------------*/
 
@@ -122,19 +90,7 @@ nav ul li
 }
 
 .book-now #progress {
-	font-size: 1.3em;
-	float: right;
-	margin: 0px 0px;
-	color:#a8acad;
-}
-
-.book-now #progress .active{
-	color:black;
-	font-weight:bold;
-}
-
-.book-now #progress .separator{
-	font-size: 0.6em;
+	margin: 0px;
 }
 
 .book-now .button{
@@ -443,73 +399,14 @@ nav ul li
 
 #flight-schedule .cal-month{
     width:478px;
-    margin:0px auto;
-}
-
-#flight-schedule h1{
-    margin:15px 0 0;
-}
-
-#flight-schedule .cal-month h2{
-    font-size:16px;
-    margin:3px 4px;
-    padding:0px;
-}
-
-#flight-schedule .month-picker{
-    margin-left:30px;
-}
-
-#flight-schedule .cal-row{
-    text-align:right;
 }
 
 #flight-schedule .cal-row{
     width:478px;
-    float:left;
 }
 
 #flight-schedule .cal-cell{
     width:56px;
-    height:28px;
-    margin:1px;
-    background-color: rgba(255, 255, 255, 0.4);
-    float:left;
-    padding:5px;
-}
-
-#flight-schedule .cal-cell:hover{
-    cursor:pointer;
-    cursor:hand;
-}
-
-#flight-schedule .header{
-    height:18px;
-}
-
-#flight-schedule .header:hover{
-    cursor:default;
-}
-
-#flight-schedule .cell-faded{
-    color:rgba(0, 0, 0, 0.3);
-}
-
-#flight-schedule .details h3 {
-    margin:32px 0px;
-}
-
-#flight-schedule .details a{
-    text-decoration:none;
-    color:#246b78;
-}
-
-#flight-schedule .details a:hover{
-    color:#292929;
-}
-
-#flight-schedule .details ul .booked {
-    text-decoration:line-through;
 }
 
 /* --------------------------------- ABOUT US -------------------------------------------------------*/
@@ -524,26 +421,13 @@ nav ul li
     margin-right:10px;
 }
 
-.job{
-	font-weight:normal;
-	margin-left:10px;
-}
-
-.founder p{
-	font-size:0.8em;
-}
-
-.founder h3{
-		font-size:1em;
-		margin: 0;
-}
 
 .founder {
     height:170px;
     margin-top:20px;
 }
 
-p{
+#about-us p{
 	font-size:0.9em
 }
 
@@ -558,13 +442,7 @@ p{
 }
 
 #faq ul{
-	margin:0px;
-	padding:0px;
     margin-bottom:10px;
-}
-
-#faq ul li{
-	list-style:none;
 }
 
 #faq #part2{
@@ -573,9 +451,7 @@ p{
     padding-top:10px;
 }
 
-#faq .answer {
-	display:none;
-}
+
 
 /*---------------------------------- CONTACT US -----------------------------------------------------*/
 
@@ -587,8 +463,6 @@ p{
 
 #contact-us .note{
 	font-size:0.9em;
-	color:#504e4f;
-	display:inline;
 }
 
 
@@ -603,6 +477,11 @@ p{
     margin-left:26px;
 }
 
+.small-frame{
+    display:none;
+}
+
+
 /* --------------------------------- FOOTER ---------------------------------------------------------*/
 
 footer
@@ -612,5 +491,9 @@ footer
 	margin:0 auto;
 }
 
-
-
+.footer-info
+{
+    height:100px;
+    width: 103px;
+    padding-left: 22px;
+}
