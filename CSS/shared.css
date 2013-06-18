@@ -1,3 +1,5 @@
+/*@import url(desktop.css) and (min-width: 780px); */
+/*@import url(tablet.css) and (max-width: 480px); */
 @charset "utf-8";
 /* CSS Document */
 
@@ -27,7 +29,76 @@ a:hover {
 
 /* --------------------------------- NAVIGATION -----------------------------------------------------*/
 
+nav
+{
+  display:block;
+  background-color:rgba(22, 28, 48, 0.5);
+  height:40px;
+}
+
+nav ul{
+  display:none;
+}
+
+nav ul li
+{
+  list-style:none;
+  display:inline;
+}
+
+nav form{
+  display:none;
+}
+
+nav ul li a
+{
+  color:#FFF;
+  text-decoration:none;
+}
+
+nav ul li a:hover
+{
+  color:#999;
+}
+
+
 /* --------------------------------- CONTENT --------------------------------------------------------*/
+
+.main{
+    background-color:rgba(255, 255, 255, 0.8);
+        border:1px solid white;
+}
+
+.button, button
+{
+  display:block;
+  text-decoration:none;
+  color:#292929;
+  margin-top:20px;
+  background-image:url(../images/button_texture.png);
+  background-repeat:repeat-x;
+  border:1px solid #b1b2b2;
+  position:relative;
+  font-size:20px;
+}
+
+.button{
+  padding:10px 20px;
+  height:27px;
+  text-align:center;
+}
+
+.button:hover
+{
+  opacity:0.75;
+}
+
+.highlighted
+{
+  font-weight:600;
+  background-image:url(../images/button_highlighted_texture.png);
+  border:1px solid #49a994;
+}
 
 /*---------------------------------- HOME -----------------------------------------------------------*/
 
@@ -55,4 +126,122 @@ a:hover {
 
 /*---------------------------------- CONTACT US -----------------------------------------------------*/
 
+#contact-us #part2{
+  padding-top:13px;
+}
+
+#contact-us .subtitle{
+  margin-top:-10px;
+}
+
+#contact-us h2{
+  font-size:1.1em;
+}
+
+#contact-us form h2{
+  display:inline;
+  font-size:1em;
+}
+
+#contact-us h3{
+  display:inline;
+  font-size:1em;
+}
+
+#contact-us ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#contact-us ul li a
+{
+  color:rgb(53, 121, 108);
+  /*text-decoration:none;*/
+}
+
+#contact-us label{
+  width:30px;
+}
+
+
+#contact-us input[type="text"],#contact-us input[type="email"], #contact-us textarea{
+  padding:7px 10px;
+}
+
+#contact-us input[type="text"]{
+  margin-left: 24px;
+}
+
+#contact-us input[type="email"]{
+  margin-left: 28px;
+  margin-top: 4px;
+}
+
+
+#contact-us .button{
+  width: 106px;
+  margin-left: 69px;
+  margin-top: 5px;
+}
+
+#contact-us .message-title{
+  top: 10px;
+  position: relative;
+}
+
+.google-link{
+  text-align:left;
+}
 /* --------------------------------- FOOTER ---------------------------------------------------------*/
+
+footer{
+  background-color:rgba(22, 28, 48, 0.5);
+}
+
+.footer-info
+{
+  position:relative;
+  float:left;
+  padding-top:15px;
+}
+
+footer h2
+{
+  font-size:0.9em;
+  color:#FFF;
+  margin:0;
+  padding:0;
+  float:left;
+  font-weight:600;
+}
+
+footer h2 a{
+  color:#FFF;
+  text-decoration:none;
+}
+
+footer ul
+{
+  margin:0 0 0 10px;
+  padding:0;
+    float:left;
+}
+
+footer ul li
+{
+  color:#FFF;
+  list-style:none;
+  font-weight:300;
+  font-size:0.9em;
+}
+
+footer ul li a
+{
+  color:#FFF;
+  text-decoration:none;
+}
+
+footer ul li a:hover
+{
+  color:#999;
+}

@@ -1,9 +1,46 @@
 @charset "utf-8";
 /* CSS Document */
 
+header {
+    width:100%;
+}
+
+#logo {
+    width:263px;
+    display:block;
+    margin:0 auto;
+}
+
 /* --------------------------------- NAVIGATION -----------------------------------------------------*/
 
+nav{
+	width: 383px;
+	margin: 0 auto;
+	height: 54px;
+}
+
+nav form{
+	display:block;
+}
+
+nav select{
+	width:100%;
+	height:54px;
+	padding:5px;
+	border:5px solid rgba(22, 28, 48, 0.5);
+	font-size: 17pt;
+	background-color: rgba(22, 28, 48, 0.5);
+	color: white;
+}
 /* --------------------------------- CONTENT --------------------------------------------------------*/
+
+.main {
+    width:330px;
+    margin:10px auto;
+    padding:25px;
+
+}
+
 
 /*---------------------------------- HOME -----------------------------------------------------------*/
 
@@ -32,3 +69,29 @@
 /*---------------------------------- CONTACT US -----------------------------------------------------*/
 
 /* --------------------------------- FOOTER ---------------------------------------------------------*/
+
+footer
+{
+	width:383px;
+    height:250px;
+	margin:0 auto;
+}
+
+.footer-info
+{
+	height:100px;
+	width: 125px;
+	padding-left: 50px;
+}
+
+footer ul{
+	clear:both;
+}
+
+footer #f-contact{
+    margin-right:28px;
+}
+
+footer #f-policies{
+    margin-right:3px;
+}
