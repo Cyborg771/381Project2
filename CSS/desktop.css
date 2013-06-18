@@ -103,11 +103,6 @@ section
 	opacity:0.75;
 }
 
-fieldset{
-	border: 1px solid #acd5c3;
-	background-color:white;
-}
-
 input[type="date"], textarea, select{
 	padding: 6px;
 	margin-top: 5px;
@@ -321,6 +316,11 @@ input[type="date"], textarea, select{
 	display:block;
 }
 
+#book-now-1 fieldset{
+	border: 1px solid #acd5c3;
+	background-color:white;
+}
+
 /*-------------------------------------- BOOK NOW 2 ------------------------------------*/
 
 #book-now-2 #part1{
@@ -454,6 +454,10 @@ input[type="date"], textarea, select{
 
 
 /* --------------------------------------- Tours & Packages -----------------------------------*/
+
+#tours-packages .touch-picker{
+    display:none;
+}
 
 #tours-packages #part2 {
     width:650px;

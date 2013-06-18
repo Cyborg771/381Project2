@@ -1,6 +1,6 @@
     <header>
-        <a href="index.php">
-            <img src="images/logo.png" id="logo" alt="Sky Air"/>
+        <a href="index.php" id="logo">
+            <img src="images/logo.png" alt="Sky Air"/>
         <a>
         <nav>
             <ul>

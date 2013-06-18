@@ -59,7 +59,7 @@
                 
             </section>
             <section id="part2">
-                <div class="form-column">
+                <div class="form-column" id="column1">
                     <label><h2>Date</h2></label>
                     <a class="info note" href="flight-schedule.php">Check Flight Schedule &raquo;</a>
                     <input type="date" id="FlightDate">
@@ -82,7 +82,7 @@
                     </select>
                     <!-- <input type="range" name="range" min="1" max="10"> --> 
                 </div>
-                <div class="form-column">
+                <div class="form-column" id="column2">
                     <label><h2>Comments</h2></label>
                     <span class="note">Please note any special requests.</span>
                     <textarea rows="4" cols="22"></textarea>
