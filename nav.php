@@ -15,6 +15,7 @@
                 <select name="menu" onChange="top.location.href = this.form.menu.options[this.form.menu.selectedIndex].value;
 return false;">  <!-- This line of javascript makes the form submit automatically on selection, without having to press a button. Learned from here: http://www.mediacollege.com/internet/javascript/navigation/drop-menu.html -->
                     <option value="#" selected>Navigation</option>
+                    <option value="index.php">Home</option>
                     <option value="book-now-1.php">Book Now</option>
                     <option value="flight-schedule.php">Flight Schedule</option>
                     <option value="about-us.php">About Us</option>
