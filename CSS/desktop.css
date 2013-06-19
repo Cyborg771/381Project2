@@ -141,6 +141,9 @@ input[type="date"], textarea, select{
 
 /*-------------------------------------- BOOK NOW 1 ------------------------------------*/
 
+#book-now-1 .recImage{
+    display:none;
+}
 
 #book-now-1 form{
 	height:100%;

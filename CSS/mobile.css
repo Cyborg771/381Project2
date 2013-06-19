@@ -77,24 +77,273 @@ h1{
 
 
 /*---------------------------------- BOOK NOW (All) -------------------------------------------------*/
+
 .book-now #progress {
 	margin: -10px 0;
 	float: none;
 	text-align: center;
+    margin-bottom:5px;
 }
+
+.book-now #part1{
+    position:relative;
+}
+
+.book-now .back{
+    position:absolute;;
+    top:-30px;
+    left:-10px;
+}
+
 /*---------------------------------- BOOK NOW 1 -----------------------------------------------------*/
 
+#book-now-1 .squareImage{
+    display:none;
+}
+
+#book-now-1 .package h2{
+	font-size: 1em;
+	width: 91%;
+	margin: 0 auto;
+}
+
+#book-now-1 a.info{
+	font-size:0.9em;
+	color:#35796c;
+	text-decoration: none;
+}
+
+#book-now-1 .package {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+#book-now-1 .package img{
+	width: 93%;
+	float:none;
+	margin:0;
+    margin-top:-16px;
+}
+
+#book-now-1 .package label:hover{
+    cursor:pointer;
+}
+
+#book-now-1 input[type="radio"]{
+	margin: 6px auto;
+    visibility:hidden;
+}
+
+/* Trying to get the non-selected package label (image and title) to fade out.*/
+#book-now-1 input[type="radio"]~label{
+	opacity:0.5;
+}
+
+#book-now-1 input[type="radio"]:checked~label{
+	opacity:1.0;
+}
+
+#book-now-1 .note{
+	font-size:0.8em;
+	color:#504e4f;
+	display:block;
+}
+
+#book-now-1 fieldset{
+	border: 1px solid #acd5c3;
+	background-color:white;
+}
+
+#book-now-1 #part2{
+    margin-top:20px;
+}
+
+#book-now-1 h2{
+    margin:10px 0 0 0;
+}
+
+#book-now-1 input[type="date"]{
+    width:245px;
+    height:40px;
+}
+
+#book-now-1 select{
+    width:250px;
+    height:40px;
+}
+
+#book-now-1 textArea{
+    width:244px;
+}
+
 /*---------------------------------- BOOK NOW 2 -----------------------------------------------------*/
+
+#book-now-2 #selection{
+    border: 1px solid #acd5c3;
+	background-color:white;
+    padding:5px;
+    height:225px;
+}
+
+#book-now-2 #selection img{
+    margin:15px 15px;   
+}
+
+#book-now-2 #selection ul{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    float:right;
+}
+
+#book-now-2 #selection .titles{
+    float:left;
+}
+
+#book-now-2 #part2{
+    margin-top:40px;
+}
 
 /*---------------------------------- BOOK NOW 3 -----------------------------------------------------*/
 
 /*---------------------------------- BOOK NOW 4 -----------------------------------------------------*/
 
+#book-now-4 #confirmation{
+    font-size:2em;
+    background-color:white;
+    display:block;
+    padding:10px;
+    width:228px;
+    text-align:center;
+    border:1px solid #acd5c3;
+}
+
 /* --------------------------------- Enter Code (Manage Bookings) -----------------------------------*/
+
+#enter-code h1{
+    margin:0px;
+}
+
+#enter-code input[type="text"]{
+	padding:6px 10px;
+    width:116px;
+}
+
+#enter-code .button{
+	width:150px;
+	display: inline;
+	padding: 3px 15px;
+	top: 2px;
+}
 
 /* --------------------------------- Manage Bookings ------------------------------------------------*/
 
+#manage-bookings #part2{
+	margin-top:35px;
+}
+
+#booking-summaries > li{
+	border: 1px solid #acd5c3;
+	background-color:white;
+	padding: 2px 26px 10px 22px;
+    list-style:none;
+}
+
+#manage-bookings ol{
+    padding:0px;
+}
+
+#booking-summaries h4{
+	display:inline;
+}
+
+#booking-summaries h3{
+	font-size: 1.12em;
+}
+
+#booking-summaries h3 .editable{
+	text-decoration:underline;
+}
+
+#booking-summaries ul li{
+	list-style-type: none;
+	margin-bottom:5px;
+}
+
+#booking-summaries li a{
+	color:rgb(53, 121, 108);
+}
+
+#manage-bookings h3 .edit{
+    display:block;
+    clear:both;
+}
+
 /* --------------------------------- Tours & Packages -----------------------------------------------*/
+
+#tours-packages #part1{
+    height:450px;
+}
+
+#tours-packages .desktop-picker{
+    display:none;
+}
+
+#tours-packages .squareImage{
+    display:none;
+}
+
+#tours-packages .fine-print{
+    font-size:0.9em;
+    color:grey;
+}
+
+#tours-packages #part2 a{
+    font-weight:bold;
+}
+
+#tours-packages .package h2{
+	font-size: 1em;
+	width: 100%;
+	margin: 0 auto 10px;
+    color:black;
+}
+
+#tours-packages a.info{
+	font-size:0.9em;
+	color:#35796c;
+	text-decoration: none;
+}
+
+#tours-packages .package {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+#tours-packages .package img{
+	width: 93%;
+	float:none;
+	margin:0;
+
+}
+
+#tours-packages #choose-package{
+    height:180px;
+}
+
+#tours-packages #part2 h1{
+    font-weight:600;
+}
+
+#tours-packages #part2 h3{
+    font-size:1.2em;
+    margin-top:5px;
+    color:#246b78;
+    font-weight:400;
+}
+
 
 /* --------------------------------- Flight Schedule ------------------------------------------------*/
 #flight-schedule #part1{
@@ -186,6 +435,7 @@ footer
 	height:100px;
 	width: 114px;
 	padding-left: 29px;
+    margin-bottom:10px;
 }
 
 footer ul{

@@ -110,6 +110,10 @@ nav ul li
 
 /*---------------------------------- BOOK NOW 1 -----------------------------------------------------*/
 
+#book-now-1 .recImage{
+    display:none;
+}
+
 #book-now-1 .package h2{
 	font-size: 1em;
 	width: 91%;
@@ -335,6 +339,9 @@ nav ul li
 
 /* --------------------------------- Tours & Packages -----------------------------------------------*/
 
+#tours-packages .recImage{
+    display:none;
+}
 
 #tours-packages .desktop-picker{
     display:none;

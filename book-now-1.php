@@ -24,7 +24,8 @@
                                          checked = "checked"
                                           />
                             <label for = "20MinuteSampler">
-                                <img src="images/package_1_square.png" />
+                                <img src="images/package_1_square.png" class="squareImage" />
+                                <img src="images/package_1.png" class="recImage" />
                                 <h2>20 Minute Sampler</h2>
                             </label>
                         </div>
@@ -36,7 +37,8 @@
                                          value = "Total Adventure Package"
                                           />
                             <label for = "TotalAdventurePackage">
-                                <img src="images/package_2_square.png" />
+                                <img src="images/package_2_square.png" class="squareImage" />
+                                <img src="images/package_2.png" class="recImage" />
                                 <h2>Total Adventure Package</h2>
                             </label>
                         </div>
@@ -48,7 +50,8 @@
                                          value = "Group Tour"
                                         />
                             <label for = "GroupTour">
-                                <img src="images/package_3_square.png" />
+                                <img src="images/package_3_square.png" class="squareImage" />
+                                <img src="images/package_3.png" class="recImage" />
                                 <h2>Group Tour</h2>
                             </label>
                         </div>

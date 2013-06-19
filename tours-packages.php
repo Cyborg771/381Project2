@@ -55,22 +55,25 @@
             <div id="choose-package" class="touch-picker">
                 
                 <div class="package">
-                    <a href="#p1" class="packageLink touchLink p1-touch" id="p1">
-                        <img src="images/package_1_square.png" />
+                    <a href="#part2" class="packageLink touchLink p1-touch" id="p1">
+                        <img src="images/package_1_square.png" class="squareImage" />
+                        <img src="images/package_1.png" class="recImage" />
                         <h2>20 Minute Sampler</h2>
                     </a>
                 </div>
 
                 <div class="package">
-                    <a href="#p2" class="packageLink touchLink p2-touch" id="p2">
-                        <img src="images/package_2_square.png" />
+                    <a href="#part2" class="packageLink touchLink p2-touch" id="p2">
+                        <img src="images/package_2_square.png" class="squareImage" />
+                        <img src="images/package_2.png" class="recImage" />
                         <h2>Total Adventure Package</h2>
                     </a>
                 </div>
                 
                 <div class="package">
-                    <a href="#p3" class="packageLink touchLink p3-touch" id="p3">
-                        <img src="images/package_3_square.png" />
+                    <a href="#part2" class="packageLink touchLink p3-touch" id="p3">
+                        <img src="images/package_3_square.png" class="squareImage" />
+                        <img src="images/package_3.png" class="recImage" />
                         <h2>Group Tour</h2>
                     </a>
                 </div>

@@ -16,6 +16,7 @@
 return false;">  <!-- This line of javascript makes the form submit automatically on selection, without having to press a button. Learned from here: http://www.mediacollege.com/internet/javascript/navigation/drop-menu.html -->
                     <option value="#" selected>Navigation</option>
                     <option value="index.php">Home</option>
+                    <option value="tours-packages.php">Tours &amp; Packages</option>
                     <option value="book-now-1.php">Book Now</option>
                     <option value="flight-schedule.php">Flight Schedule</option>
                     <option value="about-us.php">About Us</option>

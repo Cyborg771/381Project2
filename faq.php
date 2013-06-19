@@ -31,18 +31,18 @@
         	<div id="questions">
                 <h1>Frequently Asked Questions</h1>
                 <ul>
-                    <li><a class="question" href="#pickup-answer" id="pickup">Where do I go to get picked up?</a></li>
-                    <li><a class="question" href="#" id="what-to-bring">What should I bring?</a></li>
-                    <li><a class="question" href="#" id="additional">Additional Questions?</a></li>
-                    <li><a class="question" href="#" id="life">What is the meaning of life?</a></li>
-                    <li><a class="question" href="#" id="woodchuck">How much wood could a woodchuck chuck?</a></li>
-                    <li><a class="question" href="#" id="fat">Does this dress make me look fat?</a></li>
+                    <li><a class="question" href="#part2" id="pickup">Where do I go to get picked up?</a></li>
+                    <li><a class="question" href="#part2" id="what-to-bring">What should I bring?</a></li>
+                    <li><a class="question" href="#part2" id="additional">Additional Questions?</a></li>
+                    <li><a class="question" href="#part2" id="life">What is the meaning of life?</a></li>
+                    <li><a class="question" href="#part2" id="woodchuck">How much wood could a woodchuck chuck?</a></li>
+                    <li><a class="question" href="#part2" id="fat">Does this dress make me look fat?</a></li>
                 </ul>
                 <h1>Policies</h1>
                 <ul>
-                    <li><a class="question" href="#" id="safety">Saftey</a></li>
-                    <li><a class="question" href="#" id="cancellation">Cancellation</a></li>
-                    <li><a class="question" href="#" id="privacy">Privacy</a></li>
+                    <li><a class="question" href="#part2" id="safety">Saftey</a></li>
+                    <li><a class="question" href="#part2" id="cancellation">Cancellation</a></li>
+                    <li><a class="question" href="#part2" id="privacy">Privacy</a></li>
                 </ul>
             </div>
         </section>
