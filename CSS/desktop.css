@@ -73,6 +73,26 @@ input[type="date"], textarea, select{
     width:429px;
 }
 
+#home #part1 .button {
+    margin-top:20px;
+}
+
+#home #part1 .highlighted {
+    clear:left;
+}
+
+#home #part1 #twitter-icon {
+    float:left;
+    height:20px;
+    margin-right:5px;
+}
+
+#home #part1 #facebook-icon {
+    float:left;
+    height:20px;
+    margin-right:5px;
+}
+
 #home #part2{
 	width: 414px;
 }
@@ -84,9 +104,8 @@ input[type="date"], textarea, select{
 
 #home h1
 {
-	margin:55px 0 0 0;
+	margin:45px 0 0 0;
 }
-
 
 #home .package p
 {
@@ -346,90 +365,88 @@ input[type="date"], textarea, select{
 	height: 100px;
 }
 
-#booking-summaries > li{
+#manage-bookings .booking-summaries {
 	border: 1px solid #acd5c3;
 	background-color:white;
 	padding: 2px 26px 10px 22px;
+    padding:10px;
+    margin:0;
 }
 
-#booking-summaries h4{
+#manage-bookings .booking-summaries legend{
+    text-align:right;
+    
+}
+
+#manage-bookings .booking-summaries li{
+    margin:5px 0px;
+    padding:0;
+    list-style-type: none;
+}
+
+#manage-bookings .booking-summaries ul{
+    padding:0px;
+    margin:0px;
+    float:left;
+}
+
+#manage-bookings .booking-summaries .titles {
+    width:160px;
+}
+
+#manage-bookings .booking-summaries ul li{
+    height:35px;
+}
+
+#manage-bookings .booking-summaries h4{
 	display:inline;
+    font-size:1.1em;
 }
 
-#booking-summaries h3{
-	font-size: 1.12em;
-}
-
-#booking-summaries h3 .editable{
-	text-decoration:underline;
-}
-
-#booking-summaries ul li{
-	list-style-type: none;
-	margin-bottom:5px;
-}
-
-#booking-summaries li a{
+#manage-bookings .booking-summaries li a{
 	color:rgb(53, 121, 108);;
 }
 
+#manage-bookings .editable {
+    margin-top:-8px;
+    width:200px;
+}
 
 /* --------------------------------------- Tours & Packages -----------------------------------*/
 
-#tours-packages .touch-picker{
+#tours-packages #part1{
+    float:left;
+    width:228px;
+}
+
+#tours-packages .recImage{
     display:none;
 }
 
-#tours-packages #part2 {
-    width:650px;
-}
-
-#tours-packages #packages {
-    margin-top:28px;
-}
-
-#tours-packages .packageImage{
-    width:208px;
-    height:97px;
-    margin-top:15px;
-}
-
-#tours-packages #package1{
-    background-image: url("../images/package_1.png");
-}
-
-#tours-packages #package2{
-    background-image: url("../images/package_2.png");
-}
-
-#tours-packages #package3{
-    background-image: url("../images/package_3.png");
-}
-
-#tours-packages .packageName {
-    background-color:#fff;
-    width:208px;
-    height:97px;
+#tours-packages #part1 h2{
+    width:122px;
     color:black;
+    position:absolute;
+    top:0px;
+    left:120px;
+    padding:0px;
+    margin:0px;
 }
 
-#tours-packages .packageName h2{
-    margin:0;
-	padding:10px;
-	font-size:16px;
+#tours-packages #part2 {
+    width:630px;
 }
 
-#tours-packages .packageLink {
-    text-decoration:none;
+#tours-packages .package {
+    width:248px;
+    height:97px;
+    margin-top:20px;
+    position:relative;
 }
 
 #tours-packages #part2 h1{
     margin-bottom:0;
     font-weight:600;
-}
-
-#tours-packages #part2 h2{
-    
 }
 
 #tours-packages #part2 h3{
@@ -446,6 +463,10 @@ input[type="date"], textarea, select{
 
 #tours-packages #part2 a{
     font-weight:bold;
+}
+
+#tours-packages .button {
+    width:140px;
 }
 
 /* --------------------------------------- Flight Schedule -----------------------------------*/

@@ -74,7 +74,15 @@ h1{
 	margin-bottom:25px;
 }
 
+#home #part1 #twitter-icon {
+    height:50px;
+    margin-right:5px;
+}
 
+#home #part1 #facebook-icon {
+    height:50px;
+    margin-right:5px;
+}
 
 /*---------------------------------- BOOK NOW (All) -------------------------------------------------*/
 
@@ -239,55 +247,60 @@ h1{
 
 /* --------------------------------- Manage Bookings ------------------------------------------------*/
 
-#manage-bookings #part2{
-	margin-top:35px;
-}
-
-#booking-summaries > li{
+#manage-bookings .booking-summaries {
 	border: 1px solid #acd5c3;
 	background-color:white;
 	padding: 2px 26px 10px 22px;
-    list-style:none;
+    padding:10px;
+    margin:10px 0 0 0;
 }
 
-#manage-bookings ol{
+#manage-bookings .booking-summaries legend{
+    text-align:right;
+}
+
+#manage-bookings fieldset {
+    height:390px;
+}
+
+#manage-bookings .booking-summaries li{
+    margin:5px 0px;
+    padding:0;
+    list-style-type: none;
+    height:55px;
+}
+
+#manage-bookings .booking-summaries ul{
     padding:0px;
+    margin:0px;
+    margin-top:25px;
+    float:left;
 }
 
-#booking-summaries h4{
+#manage-bookings .booking-summaries .titles {
+    width:160px;
+    margin-top:0px;
+    position:absolute;
+}
+
+#manage-bookings .booking-summaries h4{
 	display:inline;
+    font-size:1.1em;
 }
 
-#booking-summaries h3{
-	font-size: 1.12em;
+#manage-bookings .booking-summaries li a{
+	color:rgb(53, 121, 108);;
 }
 
-#booking-summaries h3 .editable{
-	text-decoration:underline;
-}
-
-#booking-summaries ul li{
-	list-style-type: none;
-	margin-bottom:5px;
-}
-
-#booking-summaries li a{
-	color:rgb(53, 121, 108);
-}
-
-#manage-bookings h3 .edit{
-    display:block;
-    clear:both;
+#manage-bookings .editable {
+    margin-top:-8px;
+    width:200px;
 }
 
 /* --------------------------------- Tours & Packages -----------------------------------------------*/
 
 #tours-packages #part1{
     height:450px;
-}
-
-#tours-packages .desktop-picker{
-    display:none;
 }
 
 #tours-packages .squareImage{

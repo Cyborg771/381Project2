@@ -55,11 +55,24 @@ nav ul li
 
 #home .highlighted {
     margin-right:22px;
-    margin-left:32px
+    margin-left:32px;
+    clear:left;
+}
+
+#home #part1 #twitter-icon {
+    float:left;
+    height:35px;
+    margin-right:5px;
+}
+
+#home #part1 #facebook-icon {
+    float:left;
+    height:35px;
+    margin-right:5px;
 }
 
 #home #part1 {
-    height:255px;
+    height:290px;
 }
 
 #home .package{
@@ -297,53 +310,56 @@ nav ul li
 
 /* --------------------------------- Manage Bookings ------------------------------------------------*/
 
-#manage-bookings h1{
-    margin:0px;
-}
-
-#manage-bookings #part2{
-	margin-top:35px;
-}
-
-#booking-summaries > li{
+#manage-bookings .booking-summaries {
 	border: 1px solid #acd5c3;
 	background-color:white;
 	padding: 2px 26px 10px 22px;
+    padding:10px;
+    margin:0;
 }
 
-#booking-summaries h4{
+#manage-bookings .booking-summaries legend{
+    text-align:right;
+    
+}
+
+#manage-bookings .booking-summaries li{
+    margin:5px 0px;
+    padding:0;
+    list-style-type: none;
+}
+
+#manage-bookings .booking-summaries ul{
+    padding:0px;
+    margin:0px;
+    float:left;
+}
+
+#manage-bookings .booking-summaries .titles {
+    width:160px;
+}
+
+#manage-bookings .booking-summaries ul li{
+    height:35px;
+}
+
+#manage-bookings .booking-summaries h4{
 	display:inline;
+    font-size:1.1em;
 }
 
-#booking-summaries h3{
-	font-size: 1.12em;
+#manage-bookings .booking-summaries li a{
+	color:rgb(53, 121, 108);;
 }
 
-#booking-summaries h3 .editable{
-	text-decoration:underline;
-}
-
-#booking-summaries ul li{
-	list-style-type: none;
-	margin-bottom:5px;
-}
-
-#booking-summaries li a{
-	color:rgb(53, 121, 108);
-}
-
-#manage-bookings h3 .edit{
-    display:block;
-    clear:both;
+#manage-bookings .editable {
+    margin-top:-8px;
+    width:200px;
 }
 
 /* --------------------------------- Tours & Packages -----------------------------------------------*/
 
 #tours-packages .recImage{
-    display:none;
-}
-
-#tours-packages .desktop-picker{
     display:none;
 }
 
@@ -494,7 +510,7 @@ nav ul li
 footer
 {
 	width:530px;
-    height:200px;
+    height:160px;
 	margin:0 auto;
 }
 

@@ -18,6 +18,7 @@ return false;">  <!-- This line of javascript makes the form submit automaticall
                     <option value="index.php">Home</option>
                     <option value="tours-packages.php">Tours &amp; Packages</option>
                     <option value="book-now-1.php">Book Now</option>
+                    <option value="enter-code.php">Manage Bookings</option>
                     <option value="flight-schedule.php">Flight Schedule</option>
                     <option value="about-us.php">About Us</option>
                     <option value="faq.php">FAQ</option>
