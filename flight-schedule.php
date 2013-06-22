@@ -24,6 +24,9 @@
         <div class="main" id="flight-schedule">
             <section id="part1">
                 <h1>Flight Schedule</h1>
+                <div class="legend">
+                    <span class="swatch has-availability"></span><p>flights available</p>
+                </div>
                 <div class="cal-month">
                     <div class="cal-row">
                         <h2><a href="#" class="month-picker">&laquo;</a> <span class="month-picker">June</span> <a href="#" class="month-picker">&raquo;</a></h2>
@@ -81,7 +84,7 @@
                         <div class="cal-cell" id="d8">
                             3
                         </div>
-                        <div class="cal-cell" id="d9">
+                        <div class="cal-cell has-availability" id="d9">
                             4
                         </div>
                         <div class="cal-cell" id="d10">
@@ -90,7 +93,7 @@
                         <div class="cal-cell" id="d11">
                             6
                         </div>
-                        <div class="cal-cell" id="d12">
+                        <div class="cal-cell all-booked" id="d12">
                             7
                         </div>
                         <div class="cal-cell" id="d13">
@@ -104,7 +107,7 @@
                         <div class="cal-cell" id="d15">
                             10
                         </div>
-                        <div class="cal-cell" id="d16">
+                        <div class="cal-cell has-availability" id="d16">
                             11
                         </div>
                         <div class="cal-cell" id="d17">
@@ -113,7 +116,7 @@
                         <div class="cal-cell" id="d18">
                             13
                         </div>
-                        <div class="cal-cell" id="d19">
+                        <div class="cal-cell all-booked" id="d19">
                             14
                         </div>
                         <div class="cal-cell" id="d20">
@@ -127,7 +130,7 @@
                         <div class="cal-cell" id="d22">
                             17
                         </div>
-                        <div class="cal-cell" id="d23">
+                        <div class="cal-cell has-availability" id="d23">
                             18
                         </div>
                         <div class="cal-cell" id="d24">
@@ -136,7 +139,7 @@
                         <div class="cal-cell" id="d25">
                             20
                         </div>
-                        <div class="cal-cell" id="d26">
+                        <div class="cal-cell all-booked" id="d26">
                             21
                         </div>
                         <div class="cal-cell" id="d27">
@@ -150,7 +153,7 @@
                         <div class="cal-cell" id="d29">
                             24
                         </div>
-                        <div class="cal-cell" id="d30">
+                        <div class="cal-cell all-booked" id="d30">
                             25
                         </div>
                         <div class="cal-cell" id="d31">
@@ -190,6 +193,7 @@
                         </div>
                     </div>
                 </div>
+
             </section>
             
             <section id="part2">

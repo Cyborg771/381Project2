@@ -74,7 +74,7 @@ input[type="date"], textarea, select{
 }
 
 #home #part1 .button {
-    margin-top:20px;
+    margin-top:3px;
 }
 
 #home #part1 .highlighted {
@@ -475,8 +475,16 @@ input[type="date"], textarea, select{
     width:562px;
 }
 
+#flight-schedule .legend{
+	position: relative;
+	top: -29px;
+	left: 435px;
+}
+
 #flight-schedule .cal-month{
     width:560px;
+    position: relative;
+	top: -24px;
 }
 
 
