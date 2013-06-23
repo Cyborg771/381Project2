@@ -47,6 +47,7 @@ nav ul li
 	height:378px;
 	position:relative;
 	margin:10px auto 0px;
+    background-color:rgba(255, 255, 255, 0.9);
 }
 
 section
@@ -302,6 +303,34 @@ input[type="date"], textarea, select{
 }
 
 /*-------------------------------------- BOOK NOW 3 ------------------------------------*/
+
+#book-now-3 h2{
+  margin-bottom: 10px;
+}
+
+#book-now-3 #part1{
+	width:575px;
+}
+
+#book-now-3 #part2{
+	width: 318px;
+	margin-top: 60px;
+	margin-left: -5px;
+	padding: 0;
+}
+
+#book-now-3 h3{
+	display:inline;
+	font-size:1.1em;
+
+}
+
+
+
+#book-now-3 .form-column{
+	width:50%;
+	float:left;
+}
 
 /*-------------------------------------- BOOK NOW 4 ------------------------------------*/
 
@@ -566,9 +595,6 @@ input[type="date"], textarea, select{
 
 
 /*-------------------------------------- CONTACT US ------------------------------------*/
-
-
-
 
 
 #contact-us textarea{

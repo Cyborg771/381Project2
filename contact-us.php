@@ -9,7 +9,8 @@
 	    	<h1>
 	    		Contact Us
 	    	</h1>
-	    	<p class="subtitle">Feel free to contact us at any time. We'd love to hear from you!
+	    	<p class="subtitle">
+	    		Feel free to contact us at any time. We'd love to hear from you!
 	    	</p>
 
 

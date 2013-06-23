@@ -189,6 +189,61 @@ nav ul li a:hover
 
 /*---------------------------------- BOOK NOW 3 -----------------------------------------------------*/
 
+
+
+#book-now-3 #secure-code{
+  width:35px;
+}
+
+#book-now-3 input[type="text"], #book-now-3 input[type="email"], #book-now-3 input[type="tel"]{
+  padding: 6px;
+  width:200px;
+  margin-top:5px;
+}
+
+#book-now-3 #name{
+  margin-left: 6px;
+}
+
+#book-now-3 #email{
+  margin-left: 10px;
+}
+
+#book-now-3 #phone{
+  margin-left: 4px;
+}
+
+#book-now-3 #address{
+  margin-left: 4px;
+}
+
+#book-now-3 #city{
+  margin-left: 35px;
+}
+
+#book-now-3 #province{
+  margin-left: 68px;
+}
+
+#book-now-3 #country{
+  margin-left: 1px;
+  width: 100px;
+}
+
+#book-now-3 #postal-code{
+  margin-left:11px;
+}
+
+#book-now-3 #expiry-month{
+  margin-left:52px;
+}
+
+#book-now-3 label[for=secure-code]{
+  margin-left:10px;
+}
+
+
+
 /*---------------------------------- BOOK NOW 4 -----------------------------------------------------*/
 
 /* --------------------------------- Enter Code (Manage Bookings) -----------------------------------*/
