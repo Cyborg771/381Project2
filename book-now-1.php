@@ -22,6 +22,7 @@
                                          id = "20MinuteSampler"
                                          value = "20 Minute Sampler"
                                          checked = "checked"
+                                         required
                                           />
                             <label for = "20MinuteSampler">
                                 <img src="images/package_1_square.png" class="squareImage" />
@@ -65,17 +66,17 @@
                 <div class="form-column" id="column1">
                     <label><h2>Date</h2></label>
                     <a class="info note" href="flight-schedule.php">Check Flight Schedule &raquo;</a>
-                    <input type="date" id="FlightDate">
+                    <input type="date" id="FlightDate" required>
                     <label><h2>Flight Time</h2></label>
                     <a class="info note" href="flight-schedule.php">Check Flight Schedule &raquo;</a>
-                    <select id="FlightTime">
+                    <select id="FlightTime" required>
                         <option value=""></option>
                         <option value="9AM">9:00 AM</option>
                         <option value="1AM">1:00 PM</option>
                         <option value="6PM">6:00 PM</option>
                     </select>
                     <label><h2>Number of Tickets</h2></label>
-                    <select id="NumberOfTickets">
+                    <select id="NumberOfTickets" required>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
