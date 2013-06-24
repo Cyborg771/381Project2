@@ -272,6 +272,35 @@ nav ul li a:hover
   float:left;
 }
 
+
+#flight-schedule .details ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#flight-schedule .details ul ul{
+  position: relative;
+  left: 75px;
+  top: -20px;
+}
+
+#flight-schedule .details .title{
+  font-weight:bold;
+}
+
+#flight-schedule .details .button{
+  padding: 3px;
+  font-size: 1em;
+  height: auto;
+  width: 89px;
+  color: black;
+  margin-top: 4px;
+}
+
+#flight-schedule .details .note{
+  font-size:0.8em;
+}
+
 #flight-schedule .cal-month{
     margin:0px auto;
 }
@@ -340,11 +369,11 @@ nav ul li a:hover
 }
 
 #flight-schedule .has-availability{
-  background-color:#45a5b3;
+  background-color:#63b19d;
 }
 
 #flight-schedule .all-booked{
-  background-color:gray;
+  background-color:#cfcfcf;
 }
 
 /* --------------------------------- ABOUT US -------------------------------------------------------*/
