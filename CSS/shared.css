@@ -337,6 +337,7 @@ nav ul li a:hover
 #flight-schedule .cal-cell:hover{
     cursor:pointer;
     cursor:hand;
+    opacity:0.5;
 }
 
 #flight-schedule .header{

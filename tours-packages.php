@@ -69,25 +69,58 @@
         <section id="part2">
             <h1>Tours &amp; Packages</h1>
             <div class="packageDescription" id="p1-description">
-                <h2>20 Minute Sampler</h2>
-                <h3>$89</h3>
-                <p>A once-in-a-lifetime experience without breaking the bank. Praesent commodo nisi nisl, fringilla interdum felis blandit eget. Nulla nec cursus augue. Duis tincidunt elit nec ullamcorper mattis.</p>
-                <a href="book-now-1.php" class="button highlighted">BOOK NOW</a>
-                <p class="fine-print">Package good for up to three (3) passengers at a time. For larger groups see our Group Tours. Customers must sign a liability waiver prior to boarding the helicopter. Additional legalese and other nonsense that you probably won't read and that won't make much of a difference for the vast majority of people. Yadda.</p>
+                <div class="descript">
+                    <h2>20 Minute Sampler</h2>
+                    <h3>$89 (Per Person)</h3>
+                    <p>A once-in-a-lifetime experience without breaking the bank. This package includes a 20 minute briefing and safety session and then a 20 minute flight within a 5 mile radius of our starting point. You will have a great overview of the area and the experience of flying in a helicopter for a price that can't be beat.</p>
+                    <a href="book-now-1.php" class="button highlighted">BOOK NOW</a>
+                    <p class="fine-print">Up to three (3) passengers may be accomodated on any given flight. For larger groups see our Group Tours. Customers must sign a liability waiver prior to boarding the helicopter.</p>
+                </div>
+                <div class="customer-feedback">
+                    <blockquote>"I got to show my son the city where we both grew up, he loved it! We'll both be back next year!"</blockquote> 
+                    <cite>-Phil, Vancouver</cite>
+                    <h3>Photos Taken on This Tour</h3>
+                    <a href="#"><img src="images/20min-submitted-1.jpg" /></a>
+                    <a href="#"><img src="images/20min-submitted-2.jpg" /></a>
+                    <a href="#"><img src="images/20min-submitted-3.jpg" /></a>
+                    <p>Have any comments or photos you would like to send us about this package? <a href="contact-us.php">Contact us!</a> We'd love to hear from you!</p>
+                </div>
             </div>
             <div class="packageDescription" id="p2-description">
-                <h2>Total Adventure Package</h2>
-                <h3>$129</h3>
-                <p>This 2-hour journey covers five waypoints all over the lower mainland. Truly unforgettable. Integer vestibulum eget velit eget mattis. Nullam massa massa, ultrices ut purus sit amet, egestas ultricies orci. Fusce nec accumsan tellus. Curabitur massa dui, vehicula sed sodales bibendum, tincidunt ac mi. Sed iaculis dolor sem, sit amet commodo ipsum ultricies ut.</p>
-                <a href="book-now-1.php" class="button highlighted">BOOK NOW</a>
-                <p class="fine-print">Package good for up to three (3) passengers at a time. For larger groups see our Group Tours. Customers must sign a liability waiver prior to boarding the helicopter. Additional legalese and other nonsense that you probably won't read and that won't make much of a difference for the vast majority of people. Yadda.</p>
+                <div class="descript">
+                    <h2>Total Adventure Package</h2>
+                    <h3>$229 (Per Person)</h3>
+                    <p>This 2-hour journey covers five waypoints all over the lower mainland. This package includes a 20 minute briefing and safety session and then a 150 minute continuous flight within a 20 mile radius of our starting point. Truly unforgettable.</p>
+                    <a href="book-now-1.php" class="button highlighted">BOOK NOW</a>
+                    <p class="fine-print">Up to three (3) passengers may be accomodated on any given flight. For larger groups see our Group Tours. Customers must sign a liability waiver prior to boarding the helicopter.</p>
+                </div>
+                <div class="customer-feedback">
+                    <blockquote>"Dude, this helicopter adventure was hardcore, just like me. DO IT!"</blockquote> 
+                    <cite>-Vladimir, Alberta</cite>
+                    <h3>Photos Taken on This Tour</h3>
+                    <a href="#"><img src="images/adventure-submitted-1.jpg" /></a>
+                    <a href="#"><img src="images/adventure-submitted-2.jpg" /></a>
+                    <a href="#"><img src="images/adventure-submitted-3.jpg" /></a>
+                    <p>Have any comments or photos you would like to send us about this package? <a href="contact-us.php">Contact us!</a> We'd love to hear from you!</p>
+                </div>
             </div>
             <div class="packageDescription" id="p3-description">
-                <h2>Group Tours</h2>
-                <h3>$79 (Per Person)</h3>
-                <p>Take to the skies with your friends &amp; family, or save by sharing a trip with others. Duis a ante sed purus pulvinar lobortis fringilla sed orci. Morbi mattis vulputate elit, non ornare sapien varius id. Morbi tristique felis et sem blandit eleifend. Mauris porta in nisl ut tempor. Nullam metus nisi, ornare eu interdum eu, vestibulum a dui. Duis dignissim tempus mi, ut tristique tellus.</p>
-                <a href="book-now-1.php" class="button highlighted">BOOK NOW</a>
-                <p class="fine-print">Groups are limited to nine (9) passengers at a time as per CATSA regulations. Customers must sign a liability waiver prior to boarding the helicopter. Additional legalese and other nonsense that you probably won't read and that won't make much of a difference for the vast majority of people. Yadda.</p>
+                <div class="descript">
+                    <h2>Group Tours</h2>
+                    <h3>$129 (Per Person)</h3>
+                    <p>Take to the skies with your friends &amp; family, or save by sharing a trip with others. This package includes a 20 minute briefing and safety session and then a 60 minute continuous flight within a 20 mile radius of our starting point. </p>
+                    <a href="book-now-1.php" class="button highlighted">BOOK NOW</a>
+                    <p class="fine-print">Groups are limited to eight (8) passengers at a time as per CATSA regulations. Customers must sign a liability waiver prior to boarding the helicopter. </p>
+                </div>
+                <div class="customer-feedback">
+                    <blockquote>"My husband and I got the experience we wanted and the hour length wasn't too long for the kids. Perfect!"</blockquote> 
+                    <cite>-Audrey, Burnaby</cite>
+                    <h3>Photos Taken on This Tour</h3>
+                    <a href="#"><img src="images/group-submitted-1.jpg" /></a>
+                    <a href="#"><img src="images/group-submitted-2.jpg" /></a>
+                    <a href="#"><img src="images/group-submitted-3.jpg" /></a>
+                    <p>Have any comments or photos you would like to send us about this package? <a href="contact-us.php">Contact us!</a> We'd love to hear from you!</p>
+                </div>
             </div>
         </section>
     </div>

@@ -464,6 +464,12 @@ input[type="date"], textarea, select{
 
 #tours-packages #part2 {
     width:630px;
+    font-size:0.9em;
+}
+
+#tours-packages .descript{
+	width: 390px;
+	float: left;
 }
 
 #tours-packages .package {
@@ -496,6 +502,31 @@ input[type="date"], textarea, select{
 
 #tours-packages .button {
     width:140px;
+}
+
+#tours-packages .descript{
+	width: 390px;
+	float: left;
+}
+
+#tours-packages .customer-feedback{
+	width:200px;
+	float:right;
+}
+
+#tours-packages blockquote{
+	background-color: white;
+	margin: 0;
+	padding: 10px;
+}
+
+#tours-packages .customer-feedback h3{
+	margin-bottom:0;
+}
+
+#tours-packages .customer-feedback img{
+	width:25%;
+	
 }
 
 /* --------------------------------------- Flight Schedule -----------------------------------*/
