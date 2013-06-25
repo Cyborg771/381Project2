@@ -54,51 +54,52 @@
                         <option value="OTHER">OTHER</option>
                     </select>
                 </div>
-                
                 <a href="book-now-2.php" class="back">&laquo; Go Back</a>
             </section>
             <section id="part2">
-                <label for="postal-code"><h3>Postal Code</h3></label>
-                <input type="text" id="postal-code" required>
-                <br />
-
-                <label for="credit-card"><h3>Credit Card #</h3></label>
-                <input type="text" id="credit-card" required>
-                <br />
-
-                <label for="expiry-month"><h3>Expiry</h3></label>
-<!--                 <input type="month" id="Month"/> -->
-                <select id="expiry-month" required>
-                    <option value="BC">01</option>
-                    <option value="AB">02</option>
-                    <option value="MB">03</option>
-                    <option value="NB">04</option>
-                    <option value="NL">05</option>
-                    <option value="NT">06</option>
-                    <option value="NS">07</option>
-                    <option value="NU">08</option>
-                    <option value="ON">09</option>
-                    <option value="PE">10</option>
-                    <option value="QC">11</option>
-                    <option value="SK">12</option>
-                </select>
-                /
-                <select id="expiry-year" required>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                </select>
-
-                <label for="secure-code"><h3><abbr title="Card Security Code: Find it on the back of your credit card.">CSC</abbr></h3></label>
-                <input type="text" id="secure-code" required>
+                <div class="form-column" id="column3">
+                    <label for="postal-code"><h3>Postal Code</h3></label>
+                    <input type="text" id="postal-code" required>
+                    <br />
+    
+                    <label for="credit-card"><h3>Credit Card #</h3></label>
+                    <input type="text" id="credit-card" required>
+                    <br />
+    
+                    <label for="expiry-month"><h3>Expiry</h3></label>
+    <!--                 <input type="month" id="Month"/> -->
+                    <select id="expiry-month" required>
+                        <option value="BC">01</option>
+                        <option value="AB">02</option>
+                        <option value="MB">03</option>
+                        <option value="NB">04</option>
+                        <option value="NL">05</option>
+                        <option value="NT">06</option>
+                        <option value="NS">07</option>
+                        <option value="NU">08</option>
+                        <option value="ON">09</option>
+                        <option value="PE">10</option>
+                        <option value="QC">11</option>
+                        <option value="SK">12</option>
+                    </select>
+                    /
+                    <select id="expiry-year" required>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                    </select>
+    
+                    <label for="secure-code"><h3><abbr title="Card Security Code: Find it on the back of your credit card.">CSC</abbr></h3></label>
+                    <input type="text" id="secure-code" required>
+                </div>
 
                 <a href="book-now-4.php" class="button highlighted">CONFIRM</a>
             </section>

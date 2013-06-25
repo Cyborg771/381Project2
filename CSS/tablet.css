@@ -59,20 +59,8 @@ nav ul li
     clear:left;
 }
 
-#home #part1 #twitter-icon {
-    float:left;
-    height:35px;
-    margin-right:5px;
-}
-
-#home #part1 #facebook-icon {
-    float:left;
-    height:35px;
-    margin-right:5px;
-}
-
 #home #part1 {
-    height:290px;
+    height:330px;
 }
 
 #home .package{
@@ -92,7 +80,9 @@ nav ul li
 	font-size:12px;
 }
 
-
+#twitter {
+    margin-top:110px;
+}
 
 /*---------------------------------- BOOK NOW (All) -------------------------------------------------*/
 
@@ -254,9 +244,45 @@ nav ul li
 
 #book-now-3 #part2{
     position:relative;
-    height:80px;
+    height:393px;
 }
 
+#book-now-3 .form-column{
+	width:239px;
+    float:left;
+    height:197px;
+}
+
+#book-now-3 h3{
+    display:inline;
+}
+
+#book-now-3 input[type="text"], #book-now-3 input[type="email"], #book-now-3 input[type="tel"]{
+    width:215px;
+    padding:6px;
+    margin:5px 0;
+}
+
+#book-now-3 input[type="date"], textarea, select{
+	padding: 6px;
+}
+
+#book-now-3 #column2 select{
+    margin-top:27px;
+}
+
+#book-now-3 label[for="expiry-month"]{
+    margin-right:200px;
+}
+
+#book-now-3 label[for="secure-code"]{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#book-now-3 #secure-code{
+    width:40px;
+}
 /*---------------------------------- BOOK NOW 4 -----------------------------------------------------*/
 
 #book-now-4 #part1{

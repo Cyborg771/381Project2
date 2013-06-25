@@ -28,7 +28,7 @@
 	 			<img src="images/founder_1.jpg" />
 	 			<h3>Jamie Wei <span class="job">Senior Pilot</span></h3>
 	 			<p>
-	 				Rumor has it that Jamie was bitten by a radioactive pigeon when he was 5 years old, giving him an uncanny aeronautical ability and an insatiable desire for bread crumbs. He's been a licensed pilot for 15 years and attends the occasional local comic convention.
+	 				Some say Jamie was bitten by a radioactive pigeon at 5, giving him uncanny aeronautical ability and a taste for bread crumbs. He's been a pilot for 15 years and attends the occasional local comicon.
 	 			</p>
 	 			<p>
 	 				Email: <a href="mailto:jamie@skyair.com">jamie@skyair.com</a>

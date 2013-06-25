@@ -82,16 +82,8 @@ input[type="date"], textarea, select{
     clear:left;
 }
 
-#home #part1 #twitter-icon {
-    float:left;
-    height:20px;
-    margin-right:5px;
-}
-
-#home #part1 #facebook-icon {
-    float:left;
-    height:20px;
-    margin-right:5px;
+#home #part1 h2 {
+    margin-top: 77px;
 }
 
 #home #part2{
@@ -309,27 +301,82 @@ input[type="date"], textarea, select{
 }
 
 #book-now-3 #part1{
-	width:575px;
+	width:585px;
+    padding-right:0px;
 }
 
 #book-now-3 #part2{
 	width: 318px;
 	margin-top: 60px;
-	margin-left: -5px;
+    padding-left:0px;
 	padding: 0;
 }
 
 #book-now-3 h3{
 	display:inline;
 	font-size:1.1em;
-
 }
-
-
 
 #book-now-3 .form-column{
 	width:50%;
 	float:left;
+}
+
+#book-now-3 #column3{
+	width:320px;
+	float:left;
+    margin-left:11px;
+}
+
+#book-now-3 input[type="text"], #book-now-3 input[type="email"], #book-now-3 input[type="tel"]{
+  padding: 6px;
+  width:199px;
+  margin-top:5px;
+}
+
+#book-now-3 #name{
+  margin-left: 5px;
+}
+
+#book-now-3 #email{
+  margin-left: 10px;
+}
+
+#book-now-3 #phone{
+  margin-left: 2px;
+}
+
+#book-now-3 #address{
+  margin-left: 4px;
+}
+
+#book-now-3 #city{
+  margin-left: 33px;
+}
+
+#book-now-3 #province{
+  margin-left: 65px;
+}
+
+#book-now-3 #country{
+  margin-left: 1px;
+  width: 100px;
+}
+
+#book-now-3 #postal-code{
+  margin-left:11px;
+}
+
+#book-now-3 #expiry-month{
+  margin-left:53px;
+}
+
+#book-now-3 label[for=secure-code]{
+  margin-left:1px;
+}
+
+#book-now-3 #secure-code{
+  width:34px;
 }
 
 /*-------------------------------------- BOOK NOW 4 ------------------------------------*/

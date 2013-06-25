@@ -12,8 +12,10 @@
             <a href="http://www.twitter.com/SkyAir"><img src="images/twitter-icon.png" id="twitter-icon" /></a> -->
             <a href="book-now-1.php" class="button highlighted">BOOK NOW</a>
             <a href="enter-code.php" class="button">MANAGE BOOKINGS</a>
-            <h2><a href="http://www.twitter.com/skyair">Updates via Twitter</a></h2>
-            <p class="tweet"><a class="at_reply" href="http://www.twitter.com/allisonko">@AllisonKo</a> <a class="link_to_tweet" href="http://www.twitter.com/skyair/status/345655463075016704">Great to meet you at the BC Air Show, nice wings! ;) <span class="time">19&nbsp;minutes&nbsp;ago</span></a></p>
+            <div id="twitter">
+                <h2><a href="http://www.twitter.com/skyair">Updates via Twitter</a></h2>
+                <p class="tweet"><a class="at_reply" href="http://www.twitter.com/allisonko">@AllisonKo</a> <a class="link_to_tweet" href="http://www.twitter.com/skyair/status/345655463075016704">Great to meet you at the BC Air Show, nice wings! ;) <span class="time">19&nbsp;minutes&nbsp;ago</span></a></p>
+            </div>
         </section>
         <section id="part2">
             <a href="tours-packages.php#p1">

@@ -202,7 +202,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -211,7 +211,7 @@
                         </li>
                         <li class="booked">6:00PM 
                             <ul>
-                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p3-link">about &raquo;</a></li>
+                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p3">about &raquo;</a></li>
                                 <li>Flight Duration: 60 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $129</li>
@@ -230,7 +230,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -252,7 +252,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -261,7 +261,7 @@
                         </li>
                         <li class="booked">1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $229</li>
@@ -275,7 +275,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -284,7 +284,7 @@
                         </li>
                         <li class="booked">1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $229</li>
@@ -298,7 +298,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -307,7 +307,7 @@
                         </li>
                         <li class="booked">6:00PM 
                             <ul>
-                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p3-link">about &raquo;</a></li>
+                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p3">about &raquo;</a></li>
                                 <li>Flight Duration: 60 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $129</li>
@@ -337,7 +337,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -346,7 +346,7 @@
                         </li>
                         <li class="booked">1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $229</li>
@@ -360,7 +360,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -369,7 +369,7 @@
                         </li>
                         <li class="booked">1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $229</li>
@@ -383,7 +383,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -392,7 +392,7 @@
                         </li>
                         <li class="booked">6:00PM 
                             <ul>
-                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 60 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $129</li>
@@ -410,7 +410,7 @@
                     <ul>
                         <li>9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 2</li>
                                 <li>Cost per seat: $89</li>
@@ -432,7 +432,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -441,7 +441,7 @@
                         </li>
                         <li class="booked">1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $229</li>
@@ -455,7 +455,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -464,7 +464,7 @@
                         </li>
                         <li class="booked">1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $229</li>
@@ -478,7 +478,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -487,7 +487,7 @@
                         </li>
                         <li>6:00PM 
                             <ul>
-                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p3-link">about &raquo;</a></li>
+                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p3">about &raquo;</a></li>
                                 <li>Flight Duration: 60 Minutes</li>
                                 <li>Seats Available: 8</li>
                                 <li>Cost per seat: $129</li>
@@ -517,7 +517,7 @@
                     <ul>
                         <li class="booked">9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $89</li>
@@ -526,7 +526,7 @@
                         </li>
                         <li class="booked">1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $229</li>
@@ -540,7 +540,7 @@
                     <ul>
                         <li>9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 2</li>
                                 <li>Cost per seat: $89</li>
@@ -549,7 +549,7 @@
                         </li>
                         <li>1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 1</li>
                                 <li>Cost per seat: $229</li>
@@ -563,7 +563,7 @@
                     <ul>
                         <li>9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 1</li>
                                 <li>Cost per seat: $89</li>
@@ -572,7 +572,7 @@
                         </li>
                         <li>6:00PM 
                             <ul>
-                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p3-link">about &raquo;</a></li>
+                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p3">about &raquo;</a></li>
                                 <li>Flight Duration: 60 Minutes</li>
                                 <li>Seats Available: 6</li>
                                 <li>Cost per seat: $129</li>
@@ -590,7 +590,7 @@
                     <ul>
                         <li>9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 3</li>
                                 <li>Cost per seat: $89</li>
@@ -612,7 +612,7 @@
                     <ul>
                         <li>9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 2</li>
                                 <li>Cost per seat: $89</li>
@@ -621,7 +621,7 @@
                         </li>
                         <li>1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 1</li>
                                 <li>Cost per seat: $229</li>
@@ -635,7 +635,7 @@
                     <ul>
                         <li>9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 1</li>
                                 <li>Cost per seat: $89</li>
@@ -644,7 +644,7 @@
                         </li>
                         <li class="booked">1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 0</li>
                                 <li>Cost per seat: $229</li>
@@ -658,7 +658,7 @@
                     <ul>
                         <li>9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 1</li>
                                 <li>Cost per seat: $89</li>
@@ -667,7 +667,7 @@
                         </li>
                         <li>6:00PM 
                             <ul>
-                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p3-link">about &raquo;</a></li>
+                                <li class="title">Group Tour <a class="note" href="tours-packages.php#p3">about &raquo;</a></li>
                                 <li>Flight Duration: 60 Minutes</li>
                                 <li>Seats Available: 8</li>
                                 <li>Cost per seat: $129</li>
@@ -697,7 +697,7 @@
                     <ul>
                         <li>9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 2</li>
                                 <li>Cost per seat: $89</li>
@@ -706,7 +706,7 @@
                         </li>
                         <li>1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 1</li>
                                 <li>Cost per seat: $229</li>
@@ -720,7 +720,7 @@
                     <ul>
                         <li>9:00AM 
                             <ul>
-                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1-link">about &raquo;</a></li>
+                                <li class="title">20 Minute Sampler <a class="note" href="tours-packages.php#p1">about &raquo;</a></li>
                                 <li>Flight Duration: 20 Minutes</li>
                                 <li>Seats Available: 3</li>
                                 <li>Cost per seat: $89</li>
@@ -729,7 +729,7 @@
                         </li>
                         <li>1:00PM 
                             <ul>
-                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2-link">about &raquo;</a></li>
+                                <li class="title">Total Adventure Package <a class="note" href="tours-packages.php#p2">about &raquo;</a></li>
                                 <li>Flight Duration: 150 Minutes</li>
                                 <li>Seats Available: 3</li>
                                 <li>Cost per seat: $229</li>
