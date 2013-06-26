@@ -214,9 +214,6 @@ nav ul li a:hover
 /* --------------------------------- Enter Code (Manage Bookings) -----------------------------------*/
 
 /* --------------------------------- Manage Bookings ------------------------------------------------*/
-#manage-bookings .booking-summaries legend{
-    text-align:right;
-}
 
 #manage-bookings .button{
   padding: 3px 12px;
@@ -224,6 +221,7 @@ nav ul li a:hover
   text-align: center;
   width: 50px;
   font-size: 1em;
+  margin:0px;
 }
 /* --------------------------------- Tours & Packages -----------------------------------------------*/
 

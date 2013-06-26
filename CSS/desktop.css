@@ -251,6 +251,22 @@ input[type="date"], textarea, select{
 	background-color:white;
 }
 
+#book-now-1 .date {
+    font-size:0.8em;
+}
+
+#book-now-1 #month {
+    width:60px;
+}
+
+#book-now-1 #day {
+    width:55px;
+}
+
+#book-now-1 #year {
+    width:70px;
+}
+
 /*-------------------------------------- BOOK NOW 2 ------------------------------------*/
 
 #book-now-2 #part1{
@@ -426,14 +442,11 @@ input[type="date"], textarea, select{
 #manage-bookings .booking-summaries {
 	border: 1px solid #acd5c3;
 	background-color:white;
-	padding: 2px 26px 10px 22px;
     padding:10px;
     margin:0;
+    margin-top:-10px;
 }
 
-#manage-bookings .booking-summaries legend{
-    width: 460px;
-}
 
 #manage-bookings .booking-summaries li{
     margin:5px 0px;
@@ -467,6 +480,18 @@ input[type="date"], textarea, select{
 #manage-bookings .editable {
     margin-top:-8px;
     width:200px;
+}
+
+#manage-bookings #month {
+    width:60px;
+}
+
+#manage-bookings #day {
+    width:55px;
+}
+
+#manage-bookings #year {
+    width:77px;
 }
 
 /* --------------------------------------- Tours & Packages -----------------------------------*/

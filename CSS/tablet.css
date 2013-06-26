@@ -188,6 +188,18 @@ nav ul li
     position:relative;
 }
 
+#book-now-1 #month {
+    width:60px;
+}
+
+#book-now-1 #day {
+    width:55px;
+}
+
+#book-now-1 #year {
+    width:77px;
+}
+
 /*---------------------------------- BOOK NOW 2 -----------------------------------------------------*/
 
 #book-now-2 #part1{
@@ -338,10 +350,6 @@ nav ul li
     margin:0;
 }
 
-#manage-bookings .booking-summaries legend{
-    width: 460px;
-}
-
 #manage-bookings .booking-summaries li{
     margin:5px 0px;
     padding:0;
@@ -374,6 +382,18 @@ nav ul li
 #manage-bookings .editable {
     margin-top:-8px;
     width:200px;
+}
+
+#manage-bookings #month {
+    width:60px;
+}
+
+#manage-bookings #day {
+    width:55px;
+}
+
+#manage-bookings #year {
+    width:77px;
 }
 
 /* --------------------------------- Tours & Packages -----------------------------------------------*/
