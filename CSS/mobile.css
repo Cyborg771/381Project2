@@ -96,7 +96,7 @@ h1{
 
 .book-now .back{
     position:absolute;;
-    top:-30px;
+    top:-27px;
     left:-10px;
 }
 
@@ -185,9 +185,7 @@ h1{
 /*---------------------------------- BOOK NOW 2 -----------------------------------------------------*/
 
 #book-now-2 #selection{
-    border: 1px solid #acd5c3;
-	background-color:white;
-    padding:5px;
+    padding: 5px 5px 12px;
     height:225px;
 }
 
@@ -196,9 +194,6 @@ h1{
 }
 
 #book-now-2 #selection ul{
-    list-style:none;
-    margin:0px;
-    padding:0px;
     float:right;
 }
 
@@ -292,7 +287,7 @@ h1{
 }
 
 #manage-bookings .booking-summaries legend{
-    text-align:right;
+    width:230px;
 }
 
 #manage-bookings fieldset {
@@ -386,11 +381,9 @@ h1{
     font-weight:600;
 }
 
-#tours-packages #part2 h3{
-    font-size:1.2em;
-    margin-top:5px;
-    color:#246b78;
-    font-weight:400;
+
+#tours-packages .customer-feedback img{
+  max-height: 51px;
 }
 
 
