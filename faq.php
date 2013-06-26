@@ -70,7 +70,7 @@
 			</div>
             <div class="answer" id="training-answer">
             	<h1>What does the safety training involve?</h1>
-                <p>safety training is generally a 20 minute session where we go over the basics of being safe in a helicopter. Basically, no sticking your arms out the windows, stuff like that.</p>
+                <p>Safety training is generally a 20 minute session where we go over the basics of being safe in a helicopter. Basically, no sticking your arms out the windows, stuff like that.</p>
                 <p>Much of it involves showing you specific parts of the aircraft interior, so it is best done in person. But don't worry, we make it simple so that even little kids can understand.</p>
 			</div>
             <div class="answer" id="payment-answer">
