@@ -90,7 +90,7 @@
                 <p>All passengers must attend a manditory 20 minute safety session and sign a waiver prior to take off.</p>
                 <p>No alcohol, weapons, or pets inside the helicopter.</p>
                 <p>Our pilot reserves the right to cancel or bring the helicopter back down at any time before or during the flight if there is any unsafe behavior, weather and other conditions.</p>
-                <p>we do not recommend our services to those who are afraid of heights or with serious medical conditions.</p>
+                <p>We do not recommend our services to those who are afraid of heights or with serious medical conditions.</p>
             </div>
             <div class="answer" id="cancellation-answer">
             	<h1>Cancellation Policy:</h1>
