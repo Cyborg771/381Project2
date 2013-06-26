@@ -80,9 +80,9 @@
                     <blockquote>"I got to show my son the city where we both grew up, he loved it! We'll both be back next year!"</blockquote> 
                     <cite>-Phil, Vancouver</cite>
                     <h3>Photos Taken on This Tour</h3>
-                    <a href="images/20min-submitted-1.jpg" target="_blank"><img src="images/20min-submitted-1.jpg" alt="package1a" /></a>
-                    <a href="images/20min-submitted-2.jpg" target="_blank"><img src="images/20min-submitted-2.jpg" alt="package1b" /></a>
-                    <a href="images/20min-submitted-3.jpg" target="_blank"><img src="images/20min-submitted-3.jpg" alt="package1c" /></a>
+                    <a href="images/20min-submitted-1.jpg" target="_blank"><img src="images/20min-submitted-1-thumb.jpg" alt="package1a" /></a>
+                    <a href="images/20min-submitted-2.jpg" target="_blank"><img src="images/20min-submitted-2-thumb.jpg" alt="package1b" /></a>
+                    <a href="images/20min-submitted-3.jpg" target="_blank"><img src="images/20min-submitted-3-thumb.jpg" alt="package1c" /></a>
                     <p>Have any comments or photos you would like to send us about this package? <a href="contact-us.php">Contact us!</a> We'd love to hear from you!</p>
                 </div>
             </div>
@@ -98,9 +98,9 @@
                     <blockquote>"Dude, this helicopter adventure was hardcore, just like me. DO IT!"</blockquote> 
                     <cite>-Vladimir, Alberta</cite>
                     <h3>Photos Taken on This Tour</h3>
-                    <a href="images/adventure-submitted-1.jpg" target="_blank"><img src="images/adventure-submitted-1.jpg" alt="package2a" /></a>
-                    <a href="images/adventure-submitted-2.jpg" target="_blank"><img src="images/adventure-submitted-2.jpg" alt="package2b" /></a>
-                    <a href="images/adventure-submitted-3.jpg" target="_blank"><img src="images/adventure-submitted-3.jpg" alt="package2c" /></a>
+                    <a href="images/adventure-submitted-1.jpg" target="_blank"><img src="images/adventure-submitted-1-thumb.jpg" alt="package2a" /></a>
+                    <a href="images/adventure-submitted-2.jpg" target="_blank"><img src="images/adventure-submitted-2-thumb.jpg" alt="package2b" /></a>
+                    <a href="images/adventure-submitted-3.jpg" target="_blank"><img src="images/adventure-submitted-3-thumb.jpg" alt="package2c" /></a>
                     <p>Have any comments or photos you would like to send us about this package? <a href="contact-us.php">Contact us!</a> We'd love to hear from you!</p>
                 </div>
             </div>
@@ -116,9 +116,9 @@
                     <blockquote>"My husband and I got the experience we wanted and the hour length wasn't too long for the kids. Perfect!"</blockquote> 
                     <cite>-Audrey, Burnaby</cite>
                     <h3>Photos Taken on This Tour</h3>
-                    <a href="images/group-submitted-1.jpg" target="_blank"><img src="images/group-submitted-1.jpg" alt="package3a" /></a>
-                    <a href="images/group-submitted-2.jpg" target="_blank"><img src="images/group-submitted-2.jpg" alt="package3b" /></a>
-                    <a href="images/group-submitted-3.jpg" target="_blank"><img src="images/group-submitted-3.jpg" alt="package3c" /></a>
+                    <a href="images/group-submitted-1.jpg" target="_blank"><img src="images/group-submitted-1-thumb.jpg" alt="package3a" /></a>
+                    <a href="images/group-submitted-2.jpg" target="_blank"><img src="images/group-submitted-2-thumb.jpg" alt="package3b" /></a>
+                    <a href="images/group-submitted-3.jpg" target="_blank"><img src="images/group-submitted-3-thumb.jpg" alt="package3c" /></a>
                     <p>Have any comments or photos you would like to send us about this package? <a href="contact-us.php">Contact us!</a> We'd love to hear from you!</p>
                 </div>
             </div>
