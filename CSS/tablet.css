@@ -107,8 +107,8 @@ nav ul li
 }
 
 .book-now .back{
-    position:absolute;
-    top:-38px;
+    position: relative;
+    top: -346px;
 }
 
 /*---------------------------------- BOOK NOW 1 -----------------------------------------------------*/
@@ -172,14 +172,14 @@ nav ul li
 }
 
 #book-now-1 #part2{
-    height:305px;
+    height:224px;
     width:440px;
     margin: 0 auto;
 }
 
 #book-now-1 .form-column{
 	width:220px;
-    height:300px;
+    height:212px;
     float:left;
 }
 
@@ -206,8 +206,6 @@ nav ul li
 }
 
 #book-now-2 #selection{
-    border: 1px solid #acd5c3;
-	background-color:white;
     position:absolute;
     padding:5px;
     width:464px
@@ -218,22 +216,11 @@ nav ul li
     margin-right:10px;
 }
 
-#book-now-2 #selection ul{
-    float:left;
-    list-style:none;
-    margin:0;
-    padding:0;
-}
+
 
 #book-now-2 #selection .titles{
     font-weight:bold;
     width:80px;
-}
-
-#book-now-2 #selection .price{
-    font-size:1.2em;
-    font-weight:bold;
-    border-top:1px solid #acd5c3;
 }
 
 /*---------------------------------- BOOK NOW 3 -----------------------------------------------------*/
@@ -242,9 +229,13 @@ nav ul li
     position:relative;
 }
 
+#book-now-3 #part1{
+    z-index:1; /*Fixes bug where part2 overlaps part1 making the form fields unclickable.*/
+}
+
 #book-now-3 #part2{
     position:relative;
-    height:393px;
+    height:196px;
 }
 
 #book-now-3 .form-column{
@@ -292,6 +283,7 @@ nav ul li
 #book-now-4 #part2{
     position:relative;
     height:110px;
+    margin-top: 30px
 }
 
 #book-now-4 #part2 p{
@@ -312,9 +304,11 @@ nav ul li
     background-color:white;
     display:block;
     padding:10px;
-    width:150px;
+    width:95%;
     text-align:center;
     border:1px solid #acd5c3;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* --------------------------------- Enter Code (Manage Bookings) -----------------------------------*/
@@ -345,8 +339,7 @@ nav ul li
 }
 
 #manage-bookings .booking-summaries legend{
-    text-align:right;
-    
+    width: 460px;
 }
 
 #manage-bookings .booking-summaries li{
@@ -393,12 +386,7 @@ nav ul li
     font-weight:600;
 }
 
-#tours-packages #part2 h3{
-    font-size:1.2em;
-    margin-top:5px;
-    color:#246b78;
-    font-weight:400;
-}
+
 
 #tours-packages .fine-print{
     font-size:0.7em;
@@ -437,6 +425,10 @@ nav ul li
 
 #tours-packages #choose-package{
     height:180px;
+}
+
+#tours-packages .customer-feedback img{
+  max-height: 95px;
 }
 
 /* --------------------------------- Flight Schedule ------------------------------------------------*/
