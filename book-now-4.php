@@ -12,6 +12,7 @@
             <h1>Book a Helicopter Flight.</h1>
             <h2>Thank you for booking!</h2>
             <p>Your flight details have been emailed to you.</p>
+            <p>Want to know what to expect on your flight day? <br/> Check out our answers to our <a href="faq.php">Frequently Asked Questions</a>.</p>
             <h2>Your Confirmation Code</h2>
             <span id="confirmation">00012345</span>
         </section>
