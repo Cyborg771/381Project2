@@ -28,7 +28,7 @@
 	    	</h1>
 
     	 		<fieldset class="booking-summaries" id="saved">
-                    <legend><a id="edit" href="#">Edit &raquo;</a></legend>
+                    <legend><a id="edit" class="button" href="#">Edit &raquo;</a></legend>
                     <ul class="titles">
                         <li><h4>Package:</h4></li>
                         <li><h4>Date:</h4></li>
@@ -41,8 +41,8 @@
                     <ul>
                         <li>20 Minute Sampler</li>
                         <li>June 14 2013</li>
-                        <li>10:30am</li>
-                        <li>3</li>
+                        <li>9:00am</li>
+                        <li>1</li>
                         
                         <li>00012345</li>
                         <li>June 1 2013</li>
@@ -50,7 +50,7 @@
     	 		</fieldset>
             
                 <fieldset class="booking-summaries" id="editing">
-                    <legend><a id="save" href="#">Save &raquo;</a></legend>
+                    <legend><a id="save" class="button highlighted" href="#">Save &raquo;</a></legend>
                     <ul class="titles">
                         <li><h4>Package:</h4></li>
                         <li><h4>Date:</h4></li>
@@ -62,16 +62,14 @@
                     </ul>
                     <ul>
                         <li><select class="editable" id="Package">
-                                <option value=""></option>
                                 <option value="1">20 Minute Sampler</option>
                                 <option value="2">Total Adventure Package</option>
                                 <option value="3">Group Tours</option>
                             </select>
                         </li>
-                        <li><input class="editable" type="date" id="FlightDate"></li>
+                        <li><input class="editable" type="date" id="FlightDate" value="2013-06-14"></li>
                         <li>
                             <select class="editable" id="FlightTime">
-                                <option value=""></option>
                                 <option value="9AM">9:00 AM</option>
                                 <option value="1AM">1:00 PM</option>
                                 <option value="6PM">6:00 PM</option>
