@@ -49,7 +49,7 @@
         <section id="part2">
         	<div class="answer" id="default-answer">
             	<h1>Welcome to the FAQ</h1>
-                <p>Our most frequently asked questions are listed on the left side of the page. If you have any additional questions feel free to <a href="contact-us.php">contact</a> us.<p>
+                <p>Our most frequently asked questions are listed on this page. If you have any additional questions feel free to <a href="contact-us.php">contact</a> us.<p>
             </div>
         	<div class="answer" id="pickup-answer">
             	<h1>Where do I go to get picked up?</h1>
