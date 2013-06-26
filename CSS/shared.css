@@ -183,8 +183,29 @@ nav ul li a:hover
 }
 
 /*---------------------------------- BOOK NOW 1 -----------------------------------------------------*/
-
+#book-now-1 #part2 h2{
+  font-size: 1em;
+  margin-bottom: -3px;
+}
 /*---------------------------------- BOOK NOW 2 -----------------------------------------------------*/
+
+#book-now-2 #selection{
+    border: 1px solid #acd5c3;
+    background-color:white;
+}
+
+#book-now-2 #selection ul{
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#book-now-2 #selection .price{
+    font-size:1.2em;
+    font-weight:bold;
+    border-top:1px solid #acd5c3;
+}
 
 /*---------------------------------- BOOK NOW 3 -----------------------------------------------------*/
 
@@ -193,8 +214,37 @@ nav ul li a:hover
 /* --------------------------------- Enter Code (Manage Bookings) -----------------------------------*/
 
 /* --------------------------------- Manage Bookings ------------------------------------------------*/
+#manage-bookings .booking-summaries legend{
+    text-align:right;
+}
 
+#manage-bookings .button{
+  padding: 3px 12px;
+  height: 20px;
+  text-align: center;
+  width: 50px;
+  font-size: 1em;
+}
 /* --------------------------------- Tours & Packages -----------------------------------------------*/
+
+#tours-packages blockquote{
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+}
+
+#tours-packages #part2 h3{
+    font-size:1.2em;
+    margin-top:11px;
+    margin-bottom:3px;
+    color:#246b78;
+    font-weight:400;
+}
+
+#tours-packages .customer-feedback img{
+  max-width: 31%;
+  max-height: 51px;
+}
 
 /* --------------------------------- Flight Schedule ------------------------------------------------*/
 #flight-schedule h1{
