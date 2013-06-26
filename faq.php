@@ -79,7 +79,7 @@
 			</div>
             <div class="answer" id="change-answer">
             	<h1>How can I change/cancel my booking?</h1>
-                <p>You can do change your booking on the <a href="enter-code.php">Manage Bookings</a> page. Make sure you have your confirmation code, which was sent to your email when you completed your booking.</p>
+                <p>You can change your booking on the <a href="enter-code.php">Manage Bookings</a> page. Make sure you have your confirmation code, which was sent to your email when you completed your booking.</p>
                 <p>Please keep in mind that to cancel your booking you must notify us <strong>3 days in advance</strong> to receive a full refund.</p>
                 <p>If you're sure you want to cancel, please <a href="contact-us.php">contact us</a> to sort it out.</p>
 			</div>
