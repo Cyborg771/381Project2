@@ -180,10 +180,7 @@ input[type="date"], textarea, select{
 	padding: 0px 33px;
 }
 
-#book-now-1 #part2 h2{
-	font-size: 1em;
-	margin-bottom: -3px;
-}
+
 
 #book-now-1 input[type="date"], #book-now select{
 	display:block;
@@ -265,8 +262,6 @@ input[type="date"], textarea, select{
 }
 
 #book-now-2 #selection{
-    border: 1px solid #acd5c3;
-	background-color:white;
     position:absolute;
     padding:10px;
 }
@@ -276,22 +271,9 @@ input[type="date"], textarea, select{
     margin-right:10px;
 }
 
-#book-now-2 #selection ul{
-    float:left;
-    list-style:none;
-    margin:0;
-    padding:0;
-}
-
 #book-now-2 #selection .titles{
     font-weight:bold;
     width:80px;
-}
-
-#book-now-2 #selection .price{
-    font-size:1.2em;
-    font-weight:bold;
-    border-top:1px solid #acd5c3;
 }
 
 /*-------------------------------------- BOOK NOW 3 ------------------------------------*/
@@ -450,8 +432,7 @@ input[type="date"], textarea, select{
 }
 
 #manage-bookings .booking-summaries legend{
-    text-align:right;
-    
+    width: 460px;
 }
 
 #manage-bookings .booking-summaries li{
@@ -531,13 +512,6 @@ input[type="date"], textarea, select{
     font-weight:600;
 }
 
-#tours-packages #part2 h3{
-    font-size:1.2em;
-    margin-top:5px;
-    color:#246b78;
-    font-weight:400;
-}
-
 #tours-packages .fine-print{
     font-size:0.7em;
     color:grey;
@@ -561,19 +535,10 @@ input[type="date"], textarea, select{
 	float:right;
 }
 
-#tours-packages blockquote{
-	background-color: white;
-	margin: 0;
-	padding: 10px;
-}
+
 
 #tours-packages .customer-feedback h3{
 	margin-bottom:0;
-}
-
-#tours-packages .customer-feedback img{
-	width:25%;
-	
 }
 
 /* --------------------------------------- Flight Schedule -----------------------------------*/
