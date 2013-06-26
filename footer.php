@@ -4,9 +4,9 @@
             <ul>
             	<li><a href="tours-packages.php">Prices</a></li>
                 <li><a href="flight-schedule.php">Schedule</a></li>
-                <li><a class="question"id="pickup_footer" href="faq.php#pickup">Pick Up Location</a></li>
-                <li><a class="question"id="what-to-bring_footer" href="faq.php#what-to-bring">What to Bring</a></li>
-                <li><a class="question"id="default_footer" href="faq.php#default">FAQ</a></li>
+                <li><a class="question" id="pickup_footer" href="faq.php#pickup">Pick Up Location</a></li>
+                <li><a class="question" id="what-to-bring_footer" href="faq.php#what-to-bring">What to Bring</a></li>
+                <li><a class="question" id="default_footer" href="faq.php#default">FAQ</a></li>
             </ul>
         </div>
         <div class="footer-info">
@@ -27,7 +27,11 @@
         <div class="footer-info">
         	<h2 id="f-address">Address:</h2>
             <ul>
-            	<li><a href="https://maps.google.ca/maps?q=1111+mountain+pkwy+burnaby&hl=en&sll=49.274191,-122.936059&sspn=0.011928,0.033023&t=h&hnear=1111+Burnaby+Mountain+Pkwy,+Burnaby,+Greater+Vancouver,+British+Columbia&z=16">1111 Mountain Pkwy<br />Burnaby BC<br />A1I 2R3</a></li>
+            	<li>
+                    <a href="http://bit.ly/17h8aHo">
+                        1111 Mountain Pkwy<br />Burnaby BC<br />A1I 2R3
+                    </a>
+                </li>
             </ul>
         </div>
     </footer>

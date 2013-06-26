@@ -13,27 +13,27 @@
                 <h1>Book a Helicopter Flight.</h1>
                 <h2>Payment Info:</h2>
                 <div class="form-column" id="column1">
-                    <label for="name"><h3>Name</h3></label>
+                    <h3><label for="name">Name</label></h3>
                     <input type="text" id="name" required autofocus>
                     <br />
 
-                    <label for="email"><h3>Email</h3></label>
+                    <h3><label for="email">Email</label></h3>
                     <input type="email" id="email" required>
                     <br />
 
-                    <label for="phone"><h3>Phone</h3></label>
+                    <h3><label for="phone">Phone</label></h3>
                     <input type="tel" id="phone" required>
                 </div>
                 <div class="form-column" id="column2">
-                    <label for="address"><h3>Address</h3></label>
+                    <h3><label for="address">Address</label></h3>
                     <input type="text" id="address" required>
                     <br />
 
-                    <label for="city"><h3>City</h3></label>
+                    <h3><label for="city">City</label></h3>
                     <input type="text" id="city" required>
                     <br />
 
-                    <select id="province" required>
+                    <select id="province">
                         <option value="BC">BC</option>
                         <option value="AB">AB</option>
                         <option value="MB">MB</option>
@@ -48,7 +48,7 @@
                         <option value="SK">SK</option>
                         <option value="YT">YT</option>
                     </select>
-                    <select id="country" required>
+                    <select id="country">
                         <option value="CANADA">CANADA</option>
                         <option value="USA">USA</option>
                         <option value="OTHER">OTHER</option>
@@ -58,17 +58,17 @@
             </section>
             <section id="part2">
                 <div class="form-column" id="column3">
-                    <label for="postal-code"><h3>Postal Code</h3></label>
+                    <h3><label for="postal-code">Postal Code</label></h3>
                     <input type="text" id="postal-code" required>
                     <br />
     
-                    <label for="credit-card"><h3>Credit Card #</h3></label>
+                    <h3><label for="credit-card">Credit Card #</label></h3>
                     <input type="text" id="credit-card" required>
                     <br />
     
-                    <label for="expiry-month"><h3>Expiry</h3></label>
+                    <h3><label for="expiry-month">Expiry</label></h3>
     <!--                 <input type="month" id="Month"/> -->
-                    <select id="expiry-month" required>
+                    <select id="expiry-month">
                         <option value="BC">01</option>
                         <option value="AB">02</option>
                         <option value="MB">03</option>
@@ -83,7 +83,7 @@
                         <option value="SK">12</option>
                     </select>
                     /
-                    <select id="expiry-year" required>
+                    <select id="expiry-year">
                         <option value="13">13</option>
                         <option value="14">14</option>
                         <option value="15">15</option>
@@ -97,7 +97,7 @@
                         <option value="23">23</option>
                     </select>
     
-                    <label for="secure-code"><h3><abbr title="Card Security Code: Find it on the back of your credit card.">CSC</abbr></h3></label>
+                    <h3><label for="secure-code"><abbr title="Card Security Code: Find it on the back of your credit card.">CSC</abbr></label></h3>
                     <input type="text" id="secure-code" required>
                 </div>
 

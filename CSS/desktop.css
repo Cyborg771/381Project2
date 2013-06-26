@@ -169,18 +169,16 @@ input[type="date"], textarea, select{
     width:429px;
 }
 
-#book-now-1 .package h2{
-	font-size: 1em;
-	width: 91%;
-	margin: 0 auto;
-}
-
 #book-now-1 #part2{
 	width: 421px;
 	padding: 0px 33px;
 }
 
-
+#book-now-1 .package label{
+	font-size: 1.05em;
+	margin: 0 auto;
+    font-weight:bold;
+}
 
 #book-now-1 input[type="date"], #book-now select{
 	display:block;

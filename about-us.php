@@ -12,12 +12,12 @@
 	    	<h2>
 	    		Flying is in our blood
 	    	</h2>
-	    	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+	    	<p>When the whole neighborhood (and even some strangers) started calling Jamie asking to fly with him and be shown the world from above, Soheil proposed that they go into business together so they could both do what they loved. SkyAir was born. (Airborn.)
 	    	</p>
 	    	<h2>
 	    		Serving the local community
 	    	</h2>
-	    	<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	    	<p>Located on Burnaby Mountain, SkyAir has been showing tourists and residents of the lower mainland the beauty of the sky and mountains since 2001. Every year we give back by taking students from underpriviledged highschools up in our chopper for their graduation events.
 	    	</p>
     	</section>
     	<section id="part2">
@@ -25,7 +25,7 @@
     			The Founders
     		</h2>
 	 		<div class="founder">
-	 			<img src="images/founder_1.jpg" />
+	 			<img src="images/founder_1.jpg" alt="Jamie Wei" />
 	 			<h3>Jamie Wei <span class="job">Senior Pilot</span></h3>
 	 			<p>
 	 				Some say Jamie was bitten by a radioactive pigeon at 5, giving him uncanny aeronautical ability and a taste for bread crumbs. He's been a pilot for 15 years and attends the occasional local comicon.
@@ -35,7 +35,7 @@
 	 			</p>
 	 		</div>
 	 		<div class="founder">
-	 			<img src="images/founder_2.jpg" />
+	 			<img src="images/founder_2.jpg" alt="Soheil Yavari" />
 	 			<h3>Soheil Yavari <span class="job">Operations</span></h3>
 	 			<p>
 	 				After 6 years managing YVR airport, I decided government work wasn't for me. When Jamie proposed the idea for us to go into business together, I left it all behind. Sky Air is my labor of love.  

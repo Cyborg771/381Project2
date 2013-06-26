@@ -117,10 +117,10 @@ nav ul li
     display:none;
 }
 
-#book-now-1 .package h2{
-	font-size: 1em;
-	width: 91%;
+#book-now-1 .package .packageSelector{
+	font-size: 1.1em;
 	margin: 0 auto;
+    font-weight:bold;
 }
 
 #book-now-1 a.info{

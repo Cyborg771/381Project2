@@ -24,10 +24,10 @@
                                          checked = "checked"
                                          required
                                           />
-                            <label for = "20MinuteSampler">
-                                <img src="images/package_1_square.png" class="squareImage" />
-                                <img src="images/package_1.png" class="recImage" />
-                                <h2>20 Minute Sampler</h2>
+                            <label for = "20MinuteSampler" class="packageSelector">
+                                <img src="images/package_1_square.png" class="squareImage" alt="package1"/>
+                                <img src="images/package_1.png" class="recImage" alt="package1" />
+                                20 Minute Sampler
                             </label>
                         </div>
 
@@ -37,10 +37,10 @@
                                          id = "TotalAdventurePackage"
                                          value = "Total Adventure Package"
                                           />
-                            <label for = "TotalAdventurePackage">
-                                <img src="images/package_2_square.png" class="squareImage" />
-                                <img src="images/package_2.png" class="recImage" />
-                                <h2>Total Adventure Package</h2>
+                            <label for = "TotalAdventurePackage" class="packageSelector">
+                                <img src="images/package_2_square.png" class="squareImage" alt="package2" />
+                                <img src="images/package_2.png" class="recImage" alt="package2" />
+                                Total Adventure Package
                             </label>
                         </div>
 
@@ -50,10 +50,10 @@
                                          id = "GroupTour"
                                          value = "Group Tour"
                                         />
-                            <label for = "GroupTour">
-                                <img src="images/package_3_square.png" class="squareImage" />
-                                <img src="images/package_3.png" class="recImage" />
-                                <h2>Group Tour</h2>
+                            <label for = "GroupTour" class="packageSelector">
+                                <img src="images/package_3_square.png" class="squareImage" alt="package3" />
+                                <img src="images/package_3.png" class="recImage" alt="package3" />
+                                Group Tour
                             </label>
                         </div>
                     </fieldset>
@@ -64,7 +64,7 @@
             </section>
             <section id="part2">
                 <div class="form-column" id="column1">
-                    <label><h2>Date</h2></label>
+                    <h2><label>Date</label></h2>
                     <a class="info note" href="flight-schedule.php">Check Flight Schedule &raquo;</a>
                     <select class="editable date" id="month">
                                 <option value="JAN">Jan</option>
@@ -118,16 +118,16 @@
                                 <option value="2">2014</option>
                                 <option value="3">2013</option>
                             </select>
-                    <label><h2>Flight Time</h2></label>
+                    <h2><label>Flight Time</label></h2>
                     <a class="info note" href="flight-schedule.php">Check Flight Schedule &raquo;</a>
-                    <select id="FlightTime" required>
+                    <select id="FlightTime">
                         <option value=""></option>
                         <option value="9AM">9:00 AM</option>
                         <option value="1AM">1:00 PM</option>
                         <option value="6PM">6:00 PM</option>
                     </select>
-                    <label><h2>Number of Tickets</h2></label>
-                    <select id="NumberOfTickets" required>
+                    <h2><label>Number of Tickets</label></h2>
+                    <select id="NumberOfTickets">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -138,7 +138,7 @@
                     <!-- <input type="range" name="range" min="1" max="10"> --> 
                 </div>
                 <div class="form-column" id="column2">
-                    <label><h2>Comments</h2></label>
+                    <h2><label>Comments</label></h2>
                     <span class="note">Please note any special requests.</span>
                     <textarea rows="4" cols="22"></textarea>
                     <a href="book-now-2.php" class="button highlighted">CONFIRM</a>

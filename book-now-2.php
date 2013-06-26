@@ -12,7 +12,7 @@
             <h1>Book a Helicopter Flight.</h1>
             <h2>Your Selection:</h2>
             <div id="selection">
-                <img src="images/package_2.png">
+                <img src="images/package_2.png" alt="package">
                 <ul class="titles">
                     <li>Package:</li>
                     <li>Date:</li>

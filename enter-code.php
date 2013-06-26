@@ -15,7 +15,7 @@
 
 
 	    	<form>
-	    		<label for="code"><h2>Confirmation Code</h2></label>
+	    		<h2><label for="code">Confirmation Code</label></h2>
 	    		<p>
 	    			Enter your confirmation code below to view and edit your flight booking.
 	    	 	</p>

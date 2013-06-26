@@ -20,7 +20,7 @@
         <section id="part2">
             <a href="tours-packages.php#p1">
             	<div class="package">
-                	<img src="images/package_1.png" />
+                	<img src="images/package_1.png" alt="package1" />
                     <div class="package_description">
                         <h2>20 Minute Sampler</h2>
                         <p>A once-in-a-lifetime experience without breaking the bank.</p>
@@ -30,7 +30,7 @@
             </a>
             <a href="tours-packages.php#p2">
                 <div class="package">
-                	<img src="images/package_2.png" />
+                	<img src="images/package_2.png" alt="package2" />
                     <div class="package_description">
                         <h2>Total Adventure Package</h2>
                         <p>This 2-hour journey covers five waypoints all over the lower mainland. Truly unforgettable.</p>
@@ -40,7 +40,7 @@
             </a>
             <a href="tours-packages.php#p3">
                 <div class="package">
-                	<img src="images/package_3.png" />
+                	<img src="images/package_3.png" alt="package3"/>
                     <div class="package_description">
                         <h2>Group Tours</h2>
                         <p>Take to the skies with your friends &amp; family, or save by sharing a trip with others.</p>
